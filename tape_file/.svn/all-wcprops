@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/gridlab-d/code/!svn/ver/3689/branch/2.3/tape_file
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/tape_file/COPYRIGHT
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/tape_file/Makefile.am
+END
+tape_file.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/tape_file/tape_file.cpp
+END
+tape_file.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/gridlab-d/code/!svn/ver/3689/branch/2.3/tape_file/tape_file.vcproj
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/tape_file/ReadMe.txt
+END
+tape_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/tape_file/tape_file.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/tape_file/LICENSE
+END
+STATUS
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/tape_file/STATUS
+END

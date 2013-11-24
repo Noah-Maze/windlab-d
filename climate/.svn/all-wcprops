@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/gridlab-d/code/!svn/ver/4154/branch/2.3/climate
+END
+csv_reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/gridlab-d/code/!svn/ver/3861/branch/2.3/climate/csv_reader.cpp
+END
+solar_angles.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/gridlab-d/code/!svn/ver/3459/branch/2.3/climate/solar_angles.h
+END
+climate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/gridlab-d/code/!svn/ver/4154/branch/2.3/climate/climate.cpp
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/climate/test.cpp
+END
+weather_reader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/climate/weather_reader.cpp
+END
+csv_reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/gridlab-d/code/!svn/ver/3804/branch/2.3/climate/csv_reader.h
+END
+climate.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/gridlab-d/code/!svn/ver/3872/branch/2.3/climate/climate.h
+END
+test.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/climate/test.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/climate/main.cpp
+END
+weather_reader.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/climate/weather_reader.h
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/climate/COPYRIGHT
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/climate/Makefile.am
+END
+climate.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/gridlab-d/code/!svn/ver/3822/branch/2.3/climate/climate.vcproj
+END
+weather.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/gridlab-d/code/!svn/ver/3872/branch/2.3/climate/weather.cpp
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/climate/LICENSE
+END
+STATUS
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/climate/STATUS
+END
+init.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/climate/init.cpp
+END
+weather.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/gridlab-d/code/!svn/ver/3526/branch/2.3/climate/weather.h
+END
+solar_angles.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/gridlab-d/code/!svn/ver/3872/branch/2.3/climate/solar_angles.cpp
+END

@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/p/gridlab-d/code/!svn/ver/4233/branch/2.3
+END
+validate_win32.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/gridlab-d/code/!svn/ver/3141/branch/2.3/validate_win32.py
+END
+checkpkgs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/checkpkgs
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/gridlab-d/code/!svn/ver/3522/branch/2.3/configure.ac
+END
+README-WINDOWS.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/README-WINDOWS.txt
+END
+rsync_wrapper.bat
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/rsync_wrapper.bat
+END
+gridlabd.spec.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/gridlabd.spec.in
+END
+rsync_wrapper.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/gridlab-d/code/!svn/ver/3480/branch/2.3/rsync_wrapper.sh
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/p/gridlab-d/code/!svn/ver/3833/branch/2.3/COPYRIGHT
+END
+makefile.win
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/makefile.win
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/gridlab-d/code/!svn/ver/3808/branch/2.3/Makefile.am
+END
+generate_troubleshooting.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/gridlab-d/code/!svn/ver/3480/branch/2.3/generate_troubleshooting.sh
+END
+automake.bat
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/automake.bat
+END
+validate_dev.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/validate_dev.py
+END
+RELEASE
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/RELEASE
+END
+validate.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/validate.py
+END
+validate_x64.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/gridlab-d/code/!svn/ver/3141/branch/2.3/validate_x64.py
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/LICENSE
+END
+STATUS
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/STATUS
+END
+clean_autotest.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/clean_autotest.sh
+END
+VERSION
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/gridlab-d/code/!svn/ver/3089/branch/2.3/VERSION
+END
+README-MACOSX
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/README-MACOSX
+END
+configure.bat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/configure.bat
+END
+README-LINUX
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/README-LINUX
+END
+template.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/template.cpp
+END
+aminclude.am
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/aminclude.am
+END
+archive_failed_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/archive_failed_tests.py
+END
+BUILD
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/BUILD
+END

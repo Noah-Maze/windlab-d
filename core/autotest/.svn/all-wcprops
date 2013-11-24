@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/gridlab-d/code/!svn/ver/3855/branch/2.3/core/autotest
+END
+test_opt_alternate_syntax.glm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/gridlab-d/code/!svn/ver/3144/branch/2.3/core/autotest/test_opt_alternate_syntax.glm
+END
+test_schedule_xform.glm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/gridlab-d/code/!svn/ver/3604/branch/2.3/core/autotest/test_schedule_xform.glm
+END
+test_groupid.glm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_groupid.glm
+END
+test_loadshape_exercise_2_3_3.glm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_loadshape_exercise_2_3_3.glm
+END
+test_core_64_schedule_exc.glm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_core_64_schedule_exc.glm
+END
+test_core_63_schedule.glm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_core_63_schedule.glm
+END
+test_core_player_schedule_1.player
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_core_player_schedule_1.player
+END
+test_exc_duplicate_function.glm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_exc_duplicate_function.glm
+END
+test_core_player_schedule_2.player
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_core_player_schedule_2.player
+END
+test_opt_runtime_exercise_3_1_1.glm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/p/gridlab-d/code/!svn/ver/3144/branch/2.3/core/autotest/test_opt_runtime_exercise_3_1_1.glm
+END
+test_core_5blocks_schedule_exc.glm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_core_5blocks_schedule_exc.glm
+END
+test_core_4blocks_schedule.glm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_core_4blocks_schedule.glm
+END
+test_deltamode_house_player.csv
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/gridlab-d/code/!svn/ver/3041/branch/2.3/core/autotest/test_deltamode_house_player.csv
+END
+test_core_63_schedule.player
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_core_63_schedule.player
+END
+test_quoted_value.glm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_quoted_value.glm
+END
+test_deltamode.glm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/gridlab-d/code/!svn/ver/3624/branch/2.3/core/autotest/test_deltamode.glm
+END
+test_core_player_schedule_1.glm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_core_player_schedule_1.glm
+END
+test_core_4blocks_schedule.player
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_core_4blocks_schedule.player
+END
+test_opt_core_runtime_class.glm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/gridlab-d/code/!svn/ver/3144/branch/2.3/core/autotest/test_opt_core_runtime_class.glm
+END
+test_kml_output.glm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/gridlab-d/code/!svn/ver/3855/branch/2.3/core/autotest/test_kml_output.glm
+END
+test_simple_schedule.glm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/autotest/test_simple_schedule.glm
+END

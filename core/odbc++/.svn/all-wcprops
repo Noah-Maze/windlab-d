@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/COPYRIGHT
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/Makefile.am
+END
+callablestatement.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/callablestatement.h
+END
+drivermanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/drivermanager.h
+END
+preparedstatement.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/preparedstatement.h
+END
+errorhandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/errorhandler.h
+END
+resultset.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/resultset.h
+END
+threads.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/threads.h
+END
+resultsetmetadata.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/resultsetmetadata.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/Makefile.in
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/LICENSE
+END
+STATUS
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/STATUS
+END
+connection.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/connection.h
+END
+setup.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/setup.h
+END
+statement.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/statement.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/types.h
+END
+databasemetadata.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/databasemetadata.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/config.h
+END
+config-win32.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/config-win32.h
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/core/odbc++/config.h.in
+END

@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010
+END
+core.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/core.vcxproj
+END
+network.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/network.vcxproj
+END
+market.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/market.vcxproj.filters
+END
+powerflow.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/powerflow.vcxproj.filters
+END
+kill.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/kill.vcxproj
+END
+CBLAS.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/CBLAS.vcxproj.filters
+END
+core.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/core.vcxproj.filters
+END
+network.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/network.vcxproj.filters
+END
+assert.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/assert.vcxproj
+END
+kill.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/kill.vcxproj.filters
+END
+residential.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/residential.vcxproj
+END
+assert.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/assert.vcxproj.filters
+END
+generators.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/generators.vcxproj
+END
+reliability.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/reliability.vcxproj
+END
+residential.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/residential.vcxproj.filters
+END
+GldEditor.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/GldEditor.vcxproj
+END
+generators.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/generators.vcxproj.filters
+END
+reliability.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/reliability.vcxproj.filters
+END
+java.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/java.vcxproj
+END
+tape_memory.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/tape_memory.vcxproj
+END
+GldEditor.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/GldEditor.vcxproj.filters
+END
+tape_plot.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/tape_plot.vcxproj
+END
+java.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/java.vcxproj.filters
+END
+tape_file.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/tape_file.vcxproj
+END
+tape.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/tape.vcxproj
+END
+superLU_MT.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/superLU_MT.vcxproj
+END
+tape.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/tape.vcxproj.filters
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/gridlab-d/code/!svn/ver/2968/branch/2.3/VS2010/README
+END
+superLU_MT.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/superLU_MT.vcxproj.filters
+END
+gridlabd.sln
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/gridlab-d/code/!svn/ver/2967/branch/2.3/VS2010/gridlabd.sln
+END
+pthreads.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/pthreads.vcxproj
+END
+commercial.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/commercial.vcxproj
+END
+plc.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/plc.vcxproj
+END
+climate.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/climate.vcxproj
+END
+doxygen-doc.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/doxygen-doc.vcxproj
+END
+tape_odbc.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/tape_odbc.vcxproj
+END
+pthreads.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/pthreads.vcxproj.filters
+END
+commercial.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/commercial.vcxproj.filters
+END
+cppunit.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/cppunit.vcxproj
+END
+market.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/market.vcxproj
+END
+powerflow.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/powerflow.vcxproj
+END
+CBLAS.vcxproj
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/gridlab-d/code/!svn/ver/2966/branch/2.3/VS2010/CBLAS.vcxproj
+END
+plc.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/plc.vcxproj.filters
+END
+climate.vcxproj.filters
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/gridlab-d/code/!svn/ver/3301/branch/2.3/VS2010/climate.vcxproj.filters
+END

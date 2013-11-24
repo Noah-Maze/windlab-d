@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/gridlab-d/code/!svn/ver/4206/branch/2.3/powerflow/tests/123node
+END
+IEEE-123No-regulator.glm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/powerflow/tests/123node/IEEE-123No-regulator.glm
+END
+gridlabd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/powerflow/tests/123node/gridlabd.xml
+END
+IEEE-123.glm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/gridlab-d/code/!svn/ver/4206/branch/2.3/powerflow/tests/123node/IEEE-123.glm
+END
+IEEE-123.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/powerflow/tests/123node/IEEE-123.xml
+END
+IEEE123.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/powerflow/tests/123node/IEEE123.xml
+END

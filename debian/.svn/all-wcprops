@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/debian
+END
+gridlabd.install
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/debian/gridlabd.install
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/debian/control
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/debian/compat
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/debian/changelog
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/debian/copyright
+END
+docs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/debian/docs
+END
+gridlabd-dev.install
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/debian/gridlabd-dev.install
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/debian/rules
+END

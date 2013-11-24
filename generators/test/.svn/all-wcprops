@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/generators/test
+END
+ieee_dc_dc_test.glm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/generators/test/ieee_dc_dc_test.glm
+END
+ieee_microturbine_battery_test.glm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/generators/test/ieee_microturbine_battery_test.glm
+END
+ieee_wg_test.glm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/generators/test/ieee_wg_test.glm
+END
+test_PV.glm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/generators/test/test_PV.glm
+END
+wtdg_test.glm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/gridlab-d/code/!svn/ver/2856/branch/2.3/generators/test/wtdg_test.glm
+END
