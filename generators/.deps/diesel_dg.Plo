@@ -40,9 +40,9 @@ diesel_dg.lo: diesel_dg.cpp /usr/include/stdlib.h /usr/include/features.h \
  /usr/include/i386-linux-gnu/bits/setjmp.h ../core/globals.h \
  ../core/version.h ../core/build.h ../core/realtime.h ../core/random.h \
  ../core/threadpool.h ../core/list.h ../core/enduse.h ../core/loadshape.h \
- generators.h windturb_dg.h battery.h energy_storage.h dc_dc_converter.h \
- power_electronics.h inverter.h microturbine.h rectifier.h solar.h \
- ../core/lock.h
+ generators.h windturb_dg.h windclass.h battery.h energy_storage.h \
+ dc_dc_converter.h power_electronics.h inverter.h microturbine.h \
+ rectifier.h solar.h ../core/lock.h
 
 /usr/include/stdlib.h:
 
@@ -195,6 +195,8 @@ diesel_dg.h:
 generators.h:
 
 windturb_dg.h:
+
+windclass.h:
 
 battery.h:
 

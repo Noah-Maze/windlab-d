@@ -83,7 +83,8 @@ LTLIBRARIES = $(pkglib_LTLIBRARIES)
 generators_la_LIBADD =
 am_generators_la_OBJECTS = battery.lo dc_dc_converter.lo diesel_dg.lo \
 	energy_storage.lo init.lo inverter.lo main.lo microturbine.lo \
-	power_electronics.lo rectifier.lo solar.lo windturb_dg.lo
+	power_electronics.lo rectifier.lo solar.lo windturb_dg.lo \
+	windclass.lo
 generators_la_OBJECTS = $(am_generators_la_OBJECTS)
 generators_la_LINK = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CXXLD) $(AM_CXXFLAGS) \
@@ -289,6 +290,7 @@ generators_la_SOURCES = \
 	rectifier.cpp         rectifier.h         \
 	solar.cpp solar.h                         \
 	windturb_dg.cpp       windturb_dg.h       \
+	windclass.cpp       windclass.h       \
 	# DO NOT EDIT THE FOLLOWING LINE          \
 	# NEWCLASS
 
@@ -378,6 +380,7 @@ include ./$(DEPDIR)/microturbine.Plo
 include ./$(DEPDIR)/power_electronics.Plo
 include ./$(DEPDIR)/rectifier.Plo
 include ./$(DEPDIR)/solar.Plo
+include ./$(DEPDIR)/windclass.Plo
 include ./$(DEPDIR)/windturb_dg.Plo
 
 .cpp.o:

@@ -40,8 +40,9 @@ battery.lo: battery.cpp /usr/include/stdlib.h /usr/include/features.h \
  /usr/include/i386-linux-gnu/bits/setjmp.h ../core/globals.h \
  ../core/version.h ../core/build.h ../core/realtime.h ../core/random.h \
  ../core/threadpool.h ../core/list.h ../core/enduse.h ../core/loadshape.h \
- diesel_dg.h power_electronics.h windturb_dg.h battery.h energy_storage.h \
- dc_dc_converter.h inverter.h microturbine.h rectifier.h solar.h
+ diesel_dg.h power_electronics.h windturb_dg.h windclass.h battery.h \
+ energy_storage.h dc_dc_converter.h inverter.h microturbine.h rectifier.h \
+ solar.h
 
 /usr/include/stdlib.h:
 
@@ -196,6 +197,8 @@ diesel_dg.h:
 power_electronics.h:
 
 windturb_dg.h:
+
+windclass.h:
 
 battery.h:
 

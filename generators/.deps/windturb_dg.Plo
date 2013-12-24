@@ -41,8 +41,8 @@ windturb_dg.lo: windturb_dg.cpp /usr/include/stdlib.h \
  ../core/globals.h ../core/version.h ../core/build.h ../core/realtime.h \
  ../core/random.h ../core/threadpool.h ../core/list.h ../core/enduse.h \
  ../core/loadshape.h generators.h diesel_dg.h power_electronics.h \
- battery.h energy_storage.h dc_dc_converter.h inverter.h microturbine.h \
- rectifier.h solar.h
+ windclass.h battery.h energy_storage.h dc_dc_converter.h inverter.h \
+ microturbine.h rectifier.h solar.h
 
 /usr/include/stdlib.h:
 
@@ -199,6 +199,8 @@ generators.h:
 diesel_dg.h:
 
 power_electronics.h:
+
+windclass.h:
 
 battery.h:
 

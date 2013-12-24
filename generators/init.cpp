@@ -32,6 +32,9 @@ EXPORT CLASS *init(CALLBACKS *fntable, MODULE *module, int argc, char *argv[])
 	(new windturb_dg(module))->oclass;
 	NULL;
 
+	(new windclass(module))->oclass;
+	NULL;
+
 	(new power_electronics(module))->oclass;
 	NULL;
 
