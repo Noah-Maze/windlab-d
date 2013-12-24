@@ -1,0 +1,17 @@
+Reliability report for /home/nmaze/Documents/gridlab-d/reliability/autotest/test_eventgen_random_minTS/test_eventgen_random_minTS.glm
+Number of customers = 26
+
+1366 metrics based around 1-hour base (outage-hours)
+
+
+SAIFI = 0.807692, SAIDI = 0.117906, CAIDI = 0.145979, ASAI = 0.999987, MAIFI = 3.653846
+Interval values: SAIFI = 0.807692, SAIDI = 0.117906, CAIDI = 0.145979, ASAI = 0.999987, MAIFI = 3.653846
+
+SAIFI = 1.423077, SAIDI = 0.204188, CAIDI = 0.143483, ASAI = 0.999977, MAIFI = 5.500000
+Interval values: SAIFI = 0.615385, SAIDI = 0.086282, CAIDI = 0.140208, ASAI = 0.999977, MAIFI = 1.846154
+
+SAIFI = 1.884615, SAIDI = 0.271325, CAIDI = 0.143968, ASAI = 0.999969, MAIFI = 8.615385
+Interval values: SAIFI = 0.461538, SAIDI = 0.067137, CAIDI = 0.145463, ASAI = 0.999969, MAIFI = 3.115385
+
+SAIFI = 2.346154, SAIDI = 0.335470, CAIDI = 0.142987, ASAI = 0.999962, MAIFI = 11.730769
+Interval values: SAIFI = 0.461538, SAIDI = 0.064145, CAIDI = 0.138981, ASAI = 0.999962, MAIFI = 3.115385

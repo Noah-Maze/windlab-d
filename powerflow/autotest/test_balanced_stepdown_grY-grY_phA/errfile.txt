@@ -1,0 +1,2 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 123.34% its continuous rating on phase A!

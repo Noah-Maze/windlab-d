@@ -1,0 +1,67 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 104.09% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 107.00% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 116.49% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 112.87% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 102.56% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 128.53% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 114.01% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.95% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 131.19% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 114.91% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.88% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 134.04% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.10% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.97% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 134.80% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.31% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.79% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 135.65% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.36% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.78% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 135.89% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.42% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.70% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.16% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.44% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.69% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.24% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.46% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.66% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.33% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.46% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.65% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.36% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.47% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.64% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.39% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.47% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.64% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.39% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.47% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.64% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.40% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.47% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.64% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.41% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.47% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.64% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.41% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.47% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.64% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.41% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.47% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.64% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.41% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.47% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.64% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.41% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.47% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.64% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.41% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.47% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.64% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.41% its continuous rating on phase C!
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 115.47% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 103.64% its continuous rating on phase B!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 136.41% its continuous rating on phase C!

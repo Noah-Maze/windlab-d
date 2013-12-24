@@ -1,0 +1,166 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : eventgen:testgendev_rand - minimum_timestep set - all events at least 1 minimum step long
+WARNING [INIT] : Maximum outage for testgendev_rand was above global max - restricted to global max
+WARNING [INIT] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [INIT] : last warning message was repeated 4 times
+WARNING [INIT] : event_gen:testgendev_rand has the ability to generate more than 1 simultaneous fault - metrics may not be accurate
+WARNING [1999-12-31 16:00:00 PST] : Restoration object not detected!
+WARNING [1999-12-31 16:22:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 16:22:00 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 16:22:00 PST] : Unsupported phase on node load814
+WARNING [1999-12-31 16:23:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [1999-12-31 17:18:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 17:18:00 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 17:18:00 PST] : Unsupported phase on node load814
+WARNING [1999-12-31 17:19:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [1999-12-31 18:35:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 18:35:00 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 18:35:00 PST] : Unsupported phase on node load844
+WARNING [1999-12-31 18:43:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [1999-12-31 18:52:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 18:52:00 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 18:52:00 PST] : Unsupported phase on node load844
+WARNING [1999-12-31 19:00:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [1999-12-31 19:05:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 19:05:00 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 19:05:00 PST] : Unsupported phase on node load814
+WARNING [1999-12-31 19:06:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [1999-12-31 19:24:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 19:24:00 PST] : last warning message was repeated 3 times
+WARNING [1999-12-31 19:24:00 PST] : Unsupported phase on node load838b
+WARNING [1999-12-31 19:25:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [1999-12-31 19:25:00 PST] : Unsupported phase on node load844
+WARNING [1999-12-31 19:32:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [1999-12-31 22:50:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 22:50:00 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 22:50:00 PST] : Unsupported phase on node load844
+WARNING [1999-12-31 22:58:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [1999-12-31 23:00:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 23:00:00 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 23:00:00 PST] : Unsupported phase on node load844
+WARNING [1999-12-31 23:08:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [1999-12-31 23:38:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 23:38:00 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 23:38:00 PST] : Unsupported phase on node load838b
+WARNING [1999-12-31 23:39:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [1999-12-31 23:50:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 23:50:00 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 23:50:00 PST] : Unsupported phase on node load814
+WARNING [1999-12-31 23:51:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 00:05:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 00:05:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 00:05:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 00:13:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 00:25:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 00:25:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 00:25:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 00:26:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 00:27:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 00:27:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 00:27:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 00:30:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 00:30:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 00:30:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 00:35:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 00:35:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 00:38:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 02:13:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 02:13:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 02:13:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 02:21:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 02:47:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 02:47:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 02:47:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 02:48:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 02:58:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 02:58:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 02:58:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 02:59:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+Processing 2000-01-01 02:59:00 PST...WARNING [2000-01-01 03:05:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 03:05:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 03:05:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 03:06:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 03:07:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 03:07:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 03:07:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 03:07:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 03:08:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 04:49:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 04:49:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 04:49:00 PST] : Unsupported phase on node load814
+WARNING [2000-01-01 04:50:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 04:56:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 04:56:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 04:56:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 05:10:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 05:10:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 05:10:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 05:19:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 05:48:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 05:48:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 05:48:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 05:49:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 07:43:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 07:43:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 07:43:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 07:44:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 07:58:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 07:58:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 07:58:00 PST] : Unsupported phase on node load814
+WARNING [2000-01-01 07:59:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 08:54:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 08:54:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 08:54:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 08:55:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 10:11:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 10:11:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 10:11:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 10:12:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 10:41:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 10:41:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 10:41:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 10:44:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 10:44:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 10:44:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 10:45:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 10:45:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 10:48:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 10:48:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 10:48:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 10:49:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 11:15:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 11:15:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 11:15:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 11:15:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 11:23:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 11:33:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 11:33:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 11:33:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 11:41:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 13:07:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 13:07:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 13:07:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 13:11:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 13:11:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 13:11:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 13:12:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 13:12:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 13:15:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 14:19:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 14:19:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 14:19:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 14:27:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 14:30:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 14:30:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 14:30:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 14:38:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 14:47:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 14:47:00 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 14:47:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 14:55:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 15:45:00 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 15:45:00 PST] : last warning message was repeated 3 times
+WARNING [2000-01-01 15:45:00 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 15:46:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep
+WARNING [2000-01-01 15:46:00 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 15:53:00 PST] : Outage length is less than the minimum timestep of 60 seconds, rounded to minimum timestep

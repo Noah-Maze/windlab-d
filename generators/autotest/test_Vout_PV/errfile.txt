@@ -1,0 +1,7 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : object name '645' does not follow strict naming rules and may not link correctly during load time
+WARNING [INIT] : continuous_rating for link:CTTF_B_645 is zero - this may lead to odd warning messages about line limits with nonsense values
+WARNING [INIT] : emergency_rating for link:CTTF_B_645 is zero - this may lead to odd warning messages about line limits with nonsense values
+WARNING [INIT] : Efficiency unspecified - defaulted to 0.900000 for this inverter type
+WARNING [2010-01-01 06:00:00 PST] : transformer:CTTF_B_645 is at inf% its rated power value
+WARNING [2010-01-01 12:00:00 PST] : last warning message was repeated 360 times

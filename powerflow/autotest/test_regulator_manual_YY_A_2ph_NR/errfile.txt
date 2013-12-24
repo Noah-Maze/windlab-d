@@ -1,0 +1,29 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [2000-01-01 03:00:00 EST] : Regulator Regulator has phase A at the maximum tap value
+WARNING [2000-01-01 03:00:00 EST] : Regulator Regulator has phase B at the minimum tap value
+WARNING [2000-01-01 03:00:00 EST] : Regulator Regulator has phase A at the maximum tap value
+WARNING [2000-01-01 03:00:00 EST] : Regulator Regulator has phase B at the minimum tap value
+WARNING [2000-01-01 04:00:00 EST] : Regulator Regulator has phase A at the maximum tap value
+WARNING [2000-01-01 04:00:00 EST] : Regulator Regulator has phase B at the minimum tap value
+WARNING [2000-01-01 04:00:00 EST] : Regulator Regulator has phase A at the maximum tap value
+WARNING [2000-01-01 04:00:00 EST] : Regulator Regulator has phase B at the minimum tap value
+WARNING [2000-01-01 04:00:01 EST] : Regulator Regulator has phase A at the maximum tap value
+WARNING [2000-01-01 04:00:01 EST] : Regulator Regulator has phase B at the minimum tap value
+WARNING [2000-01-01 04:00:01 EST] : Regulator Regulator has phase A at the maximum tap value
+WARNING [2000-01-01 04:00:01 EST] : Regulator Regulator has phase B at the minimum tap value
+WARNING [2000-01-01 05:00:00 EST] : Regulator Regulator has phase A at the maximum tap value
+WARNING [2000-01-01 05:00:00 EST] : Regulator Regulator has phase B at the minimum tap value
+Processing 2000-01-01 09:00:00 EST...WARNING [2000-01-02 12:00:00 EST] : Regulator Regulator has phase B at the maximum tap value
+WARNING [2000-01-02 12:00:00 EST] : Regulator Regulator has phase A at the minimum tap value
+WARNING [2000-01-02 12:00:01 EST] : Regulator Regulator has phase B at the maximum tap value
+WARNING [2000-01-02 12:00:01 EST] : Regulator Regulator has phase A at the minimum tap value
+WARNING [2000-01-02 12:00:01 EST] : Regulator Regulator has phase B at the maximum tap value
+WARNING [2000-01-02 12:00:01 EST] : Regulator Regulator has phase A at the minimum tap value
+WARNING [2000-01-02 13:00:00 EST] : Regulator Regulator has phase B at the maximum tap value
+WARNING [2000-01-02 13:00:00 EST] : Regulator Regulator has phase A at the minimum tap value
+WARNING [2000-01-02 13:00:00 EST] : Regulator Regulator has phase B at the maximum tap value
+WARNING [2000-01-02 13:00:00 EST] : Regulator Regulator has phase A at the minimum tap value
+WARNING [2000-01-02 14:00:00 EST] : Regulator Regulator has phase B at the maximum tap value
+WARNING [2000-01-02 14:00:00 EST] : Regulator Regulator has phase A at the minimum tap value
+WARNING [2000-01-02 14:00:00 EST] : Regulator Regulator has phase B at the maximum tap value
+WARNING [2000-01-02 14:00:00 EST] : Regulator Regulator has phase A at the minimum tap value

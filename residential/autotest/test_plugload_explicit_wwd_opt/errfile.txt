@@ -1,0 +1,8 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : house_e:0 has no parent triplex_meter defined; using static voltages
+ERROR [1999-12-31 16:00:00 PST] : sync_player: Unable to open player file '../test_plugload_enduse_load_wwd.player' for object '(anon)'
+WARNING [1999-12-31 16:00:00 PST] : commit_all(): object complex_assert:2 commit failed
+ERROR [1999-12-31 16:00:00 PST] : commit() failure: commit_all(): object complex_assert:2 commit failed
+ERROR [1999-12-31 16:00:00 PST] : model commit failed
+FATAL [1999-12-31 16:00:00 PST] : shutdown after simulation stopped prematurely
+FATAL [1999-12-31 16:00:00 PST] : environment startup failed: No such file or directory

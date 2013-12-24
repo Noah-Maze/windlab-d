@@ -1,0 +1,7 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+ERROR [INIT] : init_office(obj=0;unnamed): floor height is not valid
+WARNING [INIT] : init_all(): object office:0 initialization failed
+ERROR [INIT] : init failure: init_all(): object office:0 initialization failed
+ERROR [INIT] : model initialization failed
+FATAL [INIT] : shutdown after simulation stopped prematurely
+FATAL [INIT] : environment startup failed: Success

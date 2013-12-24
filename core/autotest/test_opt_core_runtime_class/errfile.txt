@@ -1,0 +1,7 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+/usr/bin/ld: warning: cannot find entry symbol xport-all-symbols; defaulting to 0000000000000950
+ERROR [2005-12-31 23:00:00 PST] : recorder: property 'last.P' not found
+ERROR [2005-12-31 23:00:00 PST] : recorder 1 'last.P,last.Q,next.P,next.Q,avg24,std24,avg72,std72,avg168,std168' contains a property of auction 0 that is not found
+
+WARNING [2006-01-01 00:00:00 PST] : market 'Market' fails to clear due to missing buyers
+WARNING [2006-02-01 01:00:00 PST] : last warning message was repeated 23 times

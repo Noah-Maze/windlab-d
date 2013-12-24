@@ -1,0 +1,4 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 113.71% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 104.29% its continuous rating on phase A!
+WARNING [1999-12-31 19:00:00 EST] : Line:(null) is at 100.97% its continuous rating on phase C!

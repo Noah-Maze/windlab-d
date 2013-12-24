@@ -1,0 +1,9 @@
+# file...... test_microwave_standby_power_limits.csv
+# date...... Mon Dec 23 23:19:12 2013
+# user...... nmaze
+# host...... (null)
+# target.... microwave 1
+# trigger... (none)
+# interval.. 1
+# limit..... 10
+# timestamp,standby_power,installed_power,cycle_length,constant_power,constant_current

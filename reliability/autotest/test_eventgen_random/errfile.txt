@@ -1,0 +1,61 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : Maximum outage for testgendev_rand was above global max - restricted to global max
+WARNING [INIT] : event_gen:testgendev_rand has the ability to generate more than 1 simultaneous fault - metrics may not be accurate
+WARNING [1999-12-31 16:00:00 PST] : Restoration object not detected!
+WARNING [1999-12-31 16:42:08 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 16:42:08 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 16:42:08 PST] : Unsupported phase on node load814
+WARNING [1999-12-31 18:32:01 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 18:32:01 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 18:32:01 PST] : Unsupported phase on node load814
+WARNING [1999-12-31 21:08:48 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 21:08:48 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 21:08:48 PST] : Unsupported phase on node load844
+WARNING [1999-12-31 21:42:27 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 21:42:27 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 21:42:27 PST] : Unsupported phase on node load844
+WARNING [1999-12-31 22:03:31 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 22:03:31 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 22:03:31 PST] : Unsupported phase on node load814
+WARNING [1999-12-31 22:36:15 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 22:36:15 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 22:36:15 PST] : Unsupported phase on node load844
+WARNING [1999-12-31 22:46:11 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [1999-12-31 22:46:11 PST] : last warning message was repeated 1 times
+WARNING [1999-12-31 22:46:11 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 05:06:44 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 05:06:44 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 05:06:44 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 05:21:31 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 05:21:31 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 05:21:31 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 05:47:52 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 05:47:52 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 05:47:52 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 07:15:24 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 07:15:24 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 07:15:24 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 07:30:22 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 07:30:22 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 07:30:22 PST] : Unsupported phase on node load814
+WARNING [2000-01-01 07:57:31 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 07:57:31 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 07:57:31 PST] : Unsupported phase on node load814
+WARNING [2000-01-01 08:16:32 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 08:16:32 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 08:16:32 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 08:48:28 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 08:48:28 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 08:48:28 PST] : Unsupported phase on node load838b
+WARNING [2000-01-01 09:02:11 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 09:02:11 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 09:02:11 PST] : Unsupported phase on node load838b
+Processing 2000-01-01 12:00:00 PST...WARNING [2000-01-01 12:09:04 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 12:09:04 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 12:09:04 PST] : Unsupported phase on node load844
+WARNING [2000-01-01 13:00:31 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 13:00:31 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 13:00:31 PST] : Unsupported phase on node load814
+WARNING [2000-01-01 13:04:09 PST] : regulators are not supported for fault analysis at this time. Fault current is not accurate.
+WARNING [2000-01-01 13:04:09 PST] : last warning message was repeated 1 times
+WARNING [2000-01-01 13:04:09 PST] : Unsupported phase on node load838b

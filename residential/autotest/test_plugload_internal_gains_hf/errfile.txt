@@ -1,0 +1,5 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : house_e:0 has no parent triplex_meter defined; using static voltages
+ERROR [1999-12-31 16:00:00 PST] : recorder: property 'enduse_load' not found
+ERROR [1999-12-31 16:00:00 PST] : recorder 3 'demand,enduse_load,heatgain_fraction,heatgain' contains a property of plugload 1 that is not found
+

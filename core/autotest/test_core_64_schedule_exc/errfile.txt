@@ -1,0 +1,6 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+ERROR [INIT] : schedule_compile(SCHEDULE *sch='{name=zip_power, ...}') maximum number of values reached in block 0
+/home/nmaze/Documents/gridlab-d/core/autotest/test_core_64_schedule_exc/test_core_64_schedule_exc.glm(12): schedule 'zip_power' is not valid
+/home/nmaze/Documents/gridlab-d/core/autotest/test_core_64_schedule_exc/test_core_64_schedule_exc.glm(12): load failed at or near 'schedule zip...'
+ERROR [INIT] : unable to load '/home/nmaze/Documents/gridlab-d/core/autotest/test_core_64_schedule_exc/test_core_64_schedule_exc.glm': No such file or directory
+FATAL [INIT] : shutdown after command line rejected

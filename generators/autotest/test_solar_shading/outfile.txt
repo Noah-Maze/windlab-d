@@ -1,0 +1,32 @@
+                                                                                                                                                                                                                                    
+Core profiler results
+=====================
+
+Total objects                 14 objects
+Parallelism                    1 thread
+Total time                   8.0 seconds
+  Core time                  2.6 seconds (32.6%)
+  Model time                 5.4 seconds/thread (67.4%)
+Simulation time              365 days
+Simulation speed              15k object.hours/second
+Syncs completed            70082 passes
+Time steps completed       35041 timesteps
+Convergence efficiency      2.00 passes/timestep
+Memory lock contention       0.0%
+Average timestep             900 seconds/timestep
+Simulation rate          3942000 x realtime
+
+
+Model profiler results
+======================
+
+Class            Time (s) Time (%) msec/obj
+---------------- -------- -------- --------
+triplex_meter      3.630     67.3%   1815.0
+solar              0.720     13.4%    720.0
+player             0.610     11.3%    305.0
+inverter           0.220      4.1%    220.0
+climate            0.210      3.9%    210.0
+================ ======== ======== ========
+Total              5.390    100.0%    385.0
+

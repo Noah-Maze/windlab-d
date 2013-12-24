@@ -1,0 +1,6 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : csv_reader::read_line ~ sample 2091 does not advance in time (8729460) and has been discarded
+WARNING [INIT] : last warning message was repeated 1 times
+WARNING [INIT] : house_e:10 parent is not a triplex_meter; using static voltages
+WARNING [INIT] : Old second tier price is missing. System will assume the old pricing scheme was a fixed pricing scheme and use the old first tier price
+Processing 2009-06-04 00:43:30 EDT...

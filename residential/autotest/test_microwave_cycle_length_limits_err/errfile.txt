@@ -1,0 +1,11 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : explicit microwave model is experimental
+WARNING [INIT] : house_e:0 has no parent triplex_meter defined; using static voltages
+WARNING [INIT] : microwave installed power is smaller than traditional microwave ovens
+WARNING [INIT] : standby power exceeds installed power, reseting to 1% of installed power
+ERROR [INIT] : residential::microwave.init(OBJECT *obj={name='(null)', id=1}): negative cycle_length is an invalid value
+WARNING [INIT] : init_all(): object microwave:1 initialization failed
+ERROR [INIT] : init failure: init_all(): object microwave:1 initialization failed
+ERROR [INIT] : model initialization failed
+FATAL [INIT] : shutdown after simulation stopped prematurely
+FATAL [INIT] : environment startup failed: Success

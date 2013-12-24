@@ -1,0 +1,13 @@
+# file...... test_markets_stubauction.csv
+# date...... Mon Dec 23 23:12:37 2013
+# user...... nmaze
+# host...... (null)
+# target.... stubauction 0
+# trigger... (none)
+# interval.. 3600
+# limit..... 8760
+# timestamp,next.P,last.P,avg24,std24,avg72,std72,avg168,std168
+2001-01-01 00:00:00 PST,+10,+0,+0,+0,+0,+0,+0,+0
+2001-01-01 01:00:00 PST,+10,+10,+10,+0,+10,+0,+10,+0
+2001-01-01 02:00:00 PST,+10,+10,+10,+0,+10,+0,+10,+0
+2001-01-01 03:00:00 PST,+10,+10,+10,+0,+10,+0,+10,+0

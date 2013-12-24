@@ -1,0 +1,6 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [1999-12-31 16:00:02 PST] : commit_all(): object complex_assert:1 commit failed
+ERROR [1999-12-31 16:00:02 PST] : commit() failure: commit_all(): object complex_assert:1 commit failed
+ERROR [1999-12-31 16:00:02 PST] : model commit failed
+FATAL [1999-12-31 16:00:02 PST] : shutdown after simulation stopped prematurely
+FATAL [1999-12-31 16:00:02 PST] : environment startup failed: No such file or directory

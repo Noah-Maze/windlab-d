@@ -1,0 +1,3 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [1999-12-31 19:00:00 EST] : transformer:(null) is at 100.25% its rated power value
+WARNING [1999-12-31 19:00:00 EST] : last warning message was repeated 3 times

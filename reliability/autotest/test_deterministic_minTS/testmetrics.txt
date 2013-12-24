@@ -1,0 +1,17 @@
+Reliability report for /home/nmaze/Documents/gridlab-d/reliability/autotest/test_deterministic_minTS/test_deterministic_minTS.glm
+Number of customers = 26
+
+1366 metrics based around 1-hour base (outage-hours)
+
+
+SAIFI = 0.153846, SAIDI = 0.035897, CAIDI = 0.233333, ASAI = 0.999996, MAIFI = 0.000000
+Interval values: SAIFI = 0.153846, SAIDI = 0.035897, CAIDI = 0.233333, ASAI = 0.999996, MAIFI = 0.000000
+
+SAIFI = 0.423077, SAIDI = 0.076581, CAIDI = 0.181010, ASAI = 0.999991, MAIFI = 2.692308
+Interval values: SAIFI = 0.269231, SAIDI = 0.040684, CAIDI = 0.151111, ASAI = 0.999991, MAIFI = 2.692308
+
+SAIFI = 0.538462, SAIDI = 0.105427, CAIDI = 0.195794, ASAI = 0.999988, MAIFI = 3.000000
+Interval values: SAIFI = 0.115385, SAIDI = 0.028846, CAIDI = 0.250000, ASAI = 0.999988, MAIFI = 0.307692
+
+SAIFI = 0.692308, SAIDI = 0.128675, CAIDI = 0.185864, ASAI = 0.999985, MAIFI = 3.000000
+Interval values: SAIFI = 0.153846, SAIDI = 0.023248, CAIDI = 0.151111, ASAI = 0.999985, MAIFI = 0.000000

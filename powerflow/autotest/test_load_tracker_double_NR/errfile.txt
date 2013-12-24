@@ -1,0 +1,7 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+ERROR [2011-01-01 00:00:00 UTC] : SWING_BUS (meter:0): Newton-Raphson method is unable to converge to a solution at this operation point
+ERROR [2011-01-01 00:00:00 UTC] : 2011-01-01 00:00:00 UTC: object SWING_BUS stopped its clock (exec)!
+WARNING [2011-01-01 00:00:00 UTC] : synchonization failed
+ERROR [2011-01-01 00:00:00 UTC] : exec halted: synchonization failed
+FATAL [2011-01-01 00:00:00 UTC] : shutdown after simulation stopped prematurely
+FATAL [2011-01-01 00:00:00 UTC] : environment startup failed: No such file or directory

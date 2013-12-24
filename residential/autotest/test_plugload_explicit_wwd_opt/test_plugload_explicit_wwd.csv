@@ -1,0 +1,9 @@
+# file...... test_plugload_explicit_wwd.csv
+# date...... Mon Dec 23 23:17:38 2013
+# user...... nmaze
+# host...... (null)
+# target.... plugload 1
+# trigger... (none)
+# interval.. 1800
+# limit..... 60
+# timestamp,power,energy,heatgain

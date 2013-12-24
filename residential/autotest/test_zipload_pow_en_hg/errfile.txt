@@ -1,0 +1,2 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : /usr/lib/gridlabd/tzinfo.txt(37): timezone spec 'PST0PDT' not found in 'tzinfo.txt', will include no DST information

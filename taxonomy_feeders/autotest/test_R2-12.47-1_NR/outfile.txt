@@ -1,0 +1,41 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+Core profiler results
+=====================
+
+Total objects               1886 objects
+Parallelism                    1 thread
+Total time                  59.0 seconds
+  Core time                 10.8 seconds (18.4%)
+  Model time                48.2 seconds/thread (81.6%)
+Simulation time                0 days
+Simulation speed              32 object.hours/second
+Syncs completed              966 passes
+Time steps completed         241 timesteps
+Convergence efficiency      4.01 passes/timestep
+Memory lock contention       0.0%
+Average timestep              15 seconds/timestep
+Simulation rate               61 x realtime
+
+
+Model profiler results
+======================
+
+Class            Time (s) Time (%) msec/obj
+---------------- -------- -------- --------
+node              39.710     82.5%     81.4
+underground_line   1.660      3.4%      7.5
+overhead_line      1.260      2.6%      6.7
+transformer        1.260      2.6%      7.3
+triplex_node       1.140      2.4%      6.3
+triplex_meter      0.680      1.4%      7.5
+load               0.670      1.4%      8.2
+triplex_line       0.520      1.1%      5.7
+meter              0.470      1.0%      5.7
+switch             0.370      0.8%      9.0
+fuse               0.190      0.4%      5.4
+transformer_conf   0.160      0.3%      2.1
+recorder           0.040      0.1%     40.0
+capacitor          0.030      0.1%     30.0
+================ ======== ======== ========
+Total             48.160    100.0%     25.5
+

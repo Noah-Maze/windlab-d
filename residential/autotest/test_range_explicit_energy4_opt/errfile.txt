@@ -1,0 +1,10 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : house_e:0 has no parent triplex_meter defined; using static voltages
+ERROR [2001-03-25 00:00:00 PST] : recorder: property 'enduse_load' not found
+ERROR [2001-03-25 00:00:00 PST] : recorder 3 'enduse_load,energy' contains a property of range 1 that is not found
+
+WARNING [2001-03-26 00:00:00 PST] : commit_all(): object complex_assert:2 commit failed
+ERROR [2001-03-26 00:00:00 PST] : commit() failure: commit_all(): object complex_assert:2 commit failed
+ERROR [2001-03-26 00:00:00 PST] : model commit failed
+FATAL [2001-03-26 00:00:00 PST] : shutdown after simulation stopped prematurely
+FATAL [2001-03-26 00:00:00 PST] : environment startup failed: Numerical argument out of domain

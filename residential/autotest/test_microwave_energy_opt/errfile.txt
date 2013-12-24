@@ -1,0 +1,10 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : explicit microwave model is experimental
+WARNING [INIT] : house_e:0 has no parent triplex_meter defined; using static voltages
+ERROR [1999-12-31 16:00:00 PST] : sync_player: Unable to open player file 'test_microwave_energy.glt' for object '(anon)'
+WARNING [1999-12-31 16:06:01 PST] : commit_all(): object complex_assert:4 commit failed
+ERROR [1999-12-31 16:06:01 PST] : last error message was repeated 1 times
+ERROR [1999-12-31 16:06:01 PST] : commit() failure: commit_all(): object complex_assert:4 commit failed
+ERROR [1999-12-31 16:06:01 PST] : model commit failed
+FATAL [1999-12-31 16:06:01 PST] : shutdown after simulation stopped prematurely
+FATAL [1999-12-31 16:06:01 PST] : environment startup failed: No such file or directory

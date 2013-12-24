@@ -1,0 +1,11 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : class_find_property(CLASS *oclass='auction', PROPERTYNAME name='pricecap': property is deprecated
+WARNING [INIT] : last warning message was repeated 1 times
+WARNING [INIT] : house_e:1 has no parent triplex_meter defined; using static voltages
+ERROR [2001-01-01 00:00:00 PST] : could not convert units from kW to MWh, mismatched constant values
+ERROR [2001-01-01 00:00:00 PST] : unable to convert bid units from 'kW' to 'MWh'
+ERROR [2001-01-01 00:00:00 PST] : 2001-01-01 00:00:00 PST: object buyer stopped its clock (exec)!
+WARNING [2001-01-01 00:00:00 PST] : synchonization failed
+ERROR [2001-01-01 00:00:00 PST] : exec halted: synchonization failed
+FATAL [2001-01-01 00:00:00 PST] : shutdown after simulation stopped prematurely
+FATAL [2001-01-01 00:00:00 PST] : environment startup failed: Numerical argument out of domain

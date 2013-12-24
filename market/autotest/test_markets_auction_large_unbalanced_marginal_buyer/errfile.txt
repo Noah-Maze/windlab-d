@@ -1,0 +1,1 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found

@@ -1,0 +1,25 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : Fuse:R1-25-00-1_fuse_1 has a negative or 0 mean replacement time - defaulting to 1 hour
+WARNING [INIT] : Fuses only work for the attached node in the FBS solver, not any deeper.
+WARNING [INIT] : Fuse:R1-25-00-1_fuse_2 has a negative or 0 mean replacement time - defaulting to 1 hour
+WARNING [INIT] : Fuses only work for the attached node in the FBS solver, not any deeper.
+WARNING [INIT] : Fuse:R1-25-00-1_fuse_3 has a negative or 0 mean replacement time - defaulting to 1 hour
+WARNING [INIT] : Fuses only work for the attached node in the FBS solver, not any deeper.
+WARNING [INIT] : Fuse:R1-25-00-1_fuse_4 has a negative or 0 mean replacement time - defaulting to 1 hour
+WARNING [INIT] : Fuses only work for the attached node in the FBS solver, not any deeper.
+WARNING [INIT] : Fuse:R1-25-00-1_fuse_5 has a negative or 0 mean replacement time - defaulting to 1 hour
+WARNING [INIT] : Fuses only work for the attached node in the FBS solver, not any deeper.
+WARNING [INIT] : Fuse:R1-25-00-1_fuse_6 has a negative or 0 mean replacement time - defaulting to 1 hour
+WARNING [INIT] : Fuses only work for the attached node in the FBS solver, not any deeper.
+WARNING [INIT] : Fuse:R1-25-00-1_fuse_7 has a negative or 0 mean replacement time - defaulting to 1 hour
+WARNING [INIT] : Fuses only work for the attached node in the FBS solver, not any deeper.
+WARNING [INIT] : Fuse:R1-25-00-1_fuse_8 has a negative or 0 mean replacement time - defaulting to 1 hour
+WARNING [INIT] : Fuses only work for the attached node in the FBS solver, not any deeper.
+WARNING [INIT] : Fuse:R1-25-00-1_fuse_9 has a negative or 0 mean replacement time - defaulting to 1 hour
+WARNING [INIT] : Fuses only work for the attached node in the FBS solver, not any deeper.
+WARNING [INIT] : Fuse:R1-25-00-1_fuse_10 has a negative or 0 mean replacement time - defaulting to 1 hour
+WARNING [INIT] : Fuses only work for the attached node in the FBS solver, not any deeper.
+WARNING [INIT] : Fuse:R1-25-00-1_fuse_11 has a negative or 0 mean replacement time - defaulting to 1 hour
+WARNING [INIT] : Fuses only work for the attached node in the FBS solver, not any deeper.
+WARNING [INIT] : switch objects may not behave properly under FBS!
+WARNING [2000-01-01 01:00:00 GMT] : last warning message was repeated 8 times

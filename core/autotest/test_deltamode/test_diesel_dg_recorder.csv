@@ -1,0 +1,10 @@
+# file...... test_diesel_dg_recorder.csv
+# date...... Mon Dec 23 23:14:05 2013
+# user...... nmaze
+# host...... (null)
+# target.... meter 0
+# trigger... (none)
+# interval.. -1
+# limit..... 0
+# timestamp,voltage_A,voltage_B,voltage_C
+01-01-2001 00:00:00,+240+0d,+240-120d,+240+120d

@@ -1,0 +1,16 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : switch objects may not behave properly under FBS!
+ERROR [2011-01-01 00:00:00 UTC] : recorder: property 'measured_real_power[kW]' not found
+ERROR [2011-01-01 00:00:00 UTC] : recorder 1 'measured_real_power[kW],measured_reactive_power[kVAr]' contains a property of meter 0 that is not found
+
+ERROR [2011-01-01 00:00:00 UTC] : recorder: property 'measured_real_power[kW]' not found
+ERROR [2011-01-01 00:00:00 UTC] : recorder 17 'measured_real_power[kW],measured_reactive_power[kVAr]' contains a property of meter 15 that is not found
+
+ERROR [2011-01-01 00:00:00 UTC] : recorder: property 'measured_real_power[kW]' not found
+ERROR [2011-01-01 00:00:00 UTC] : recorder 21 'measured_real_power[kW],measured_reactive_power[kVAr]' contains a property of meter 19 that is not found
+
+WARNING [2011-01-01 00:00:00 UTC] : commit_all(): object double_assert:10 commit failed
+ERROR [2011-01-01 00:00:00 UTC] : commit() failure: commit_all(): object double_assert:10 commit failed
+ERROR [2011-01-01 00:00:00 UTC] : model commit failed
+FATAL [2011-01-01 00:00:00 UTC] : shutdown after simulation stopped prematurely
+FATAL [2011-01-01 00:00:00 UTC] : environment startup failed: No such file or directory

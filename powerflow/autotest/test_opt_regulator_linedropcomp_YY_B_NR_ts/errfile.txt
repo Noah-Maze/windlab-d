@@ -1,0 +1,7 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+ERROR [INIT] : auto_regulator (regulator_configuration:4): Line drop compensation is only supported for regulators in FBS at this time.
+WARNING [INIT] : init_all(): object auto_regulator initialization failed
+ERROR [INIT] : init failure: init_all(): object auto_regulator initialization failed
+ERROR [INIT] : model initialization failed
+FATAL [INIT] : shutdown after simulation stopped prematurely
+FATAL [INIT] : environment startup failed: Numerical argument out of domain

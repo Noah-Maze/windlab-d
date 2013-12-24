@@ -1,0 +1,2 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : switch objects may not behave properly under FBS!

@@ -1,0 +1,6 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+/home/nmaze/Documents/gridlab-d/residential/autotest/test_residentialenduse_standalone/test_residentialenduse_standalone.glm(27): Object 'res-enduse-none' should generate a warning about missing schedule
+ERROR [INIT] : loadshape_init(): a loadshape without a schedule is meaningless
+/home/nmaze/Documents/gridlab-d/residential/autotest/test_residentialenduse_standalone/test_residentialenduse_standalone.glm(34): Object 'res-enduse-badparent' should generate a warning about its parent
+ERROR [INIT] : loadshape_init(): a loadshape without a schedule is meaningless
+WARNING [INIT] : res-enduse-badparent (residential_enduse:2) parent res-enduse-none (residential_enduse:1) does not export attach_enduse function so voltage response cannot be modeled

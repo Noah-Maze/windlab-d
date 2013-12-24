@@ -1,0 +1,5 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : csv_reader::read_line ~ sample 2091 does not advance in time (8729460) and has been discarded
+WARNING [INIT] : last warning message was repeated 1 times
+WARNING [INIT] : house_e:10 parent is not a triplex_meter; using static voltages
+Processing 2009-06-03 05:18:00 EDT...

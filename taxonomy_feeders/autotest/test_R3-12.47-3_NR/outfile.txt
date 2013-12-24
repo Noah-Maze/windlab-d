@@ -1,0 +1,40 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+Core profiler results
+=====================
+
+Total objects              12646 objects
+Parallelism                    1 thread
+Total time                  95.0 seconds
+  Core time                 13.6 seconds (14.3%)
+  Model time                81.4 seconds/thread (85.7%)
+Simulation time                0 days
+Simulation speed             133 object.hours/second
+Syncs completed              250 passes
+Time steps completed          62 timesteps
+Convergence efficiency      4.03 passes/timestep
+Memory lock contention       0.0%
+Average timestep              58 seconds/timestep
+Simulation rate               38 x realtime
+
+
+Model profiler results
+======================
+
+Class            Time (s) Time (%) msec/obj
+---------------- -------- -------- --------
+node              63.270     77.7%     31.6
+triplex_node       5.820      7.1%      1.8
+triplex_meter      3.190      3.9%      2.0
+transformer        2.720      3.3%      1.6
+triplex_line       2.710      3.3%      1.7
+overhead_line      2.400      2.9%      1.6
+underground_line   0.520      0.6%      1.6
+fuse               0.310      0.4%      2.2
+load               0.240      0.3%      2.2
+meter              0.150      0.2%      1.4
+switch             0.040      0.0%      1.9
+transformer_conf   0.030      0.0%      0.4
+capacitor          0.010      0.0%      5.0
+================ ======== ======== ========
+Total             81.410    100.0%      6.4
+

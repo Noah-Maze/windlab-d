@@ -1,0 +1,46 @@
+                                                                                                                                        
+Core profiler results
+=====================
+
+Total objects                 17 objects
+Parallelism                    1 thread
+Total time                   6.0 seconds
+  Core time                  2.0 seconds (33.2%)
+  Deltamode time             4.0 seconds/thread (66.7%)
+  Model time                 0.0 seconds/thread (0.2%)
+Simulation time                0 days
+Simulation speed               0 object.hours/second
+Syncs completed               18 passes
+Time steps completed           7 timesteps
+Convergence efficiency      2.57 passes/timestep
+Memory lock contention       0.0%
+Average timestep               6 seconds/timestep
+Simulation rate                7 x realtime
+
+Delta mode profiler results
+===========================
+
+Active modules          tape,powerflow,generators
+Initialization time          0.0 seconds
+Number of updates           6594
+Average update timestep   4.9970 ms
+Minumum update timestep  10.0000 ms
+Maximum update timestep  10.0000 ms
+Total deltamode simtime      0.0 s
+Preupdate time               0.0 s (0.0%)
+Object update time           4.7 s (50.1%)
+Interupdate time             4.7 s (49.9%)
+Postupdate time              0.0 s (0.0%)
+Total deltamode runtime      4.0 s (100%)
+Simulation rate              0.0 x realtime
+
+
+Model profiler results
+======================
+
+Class            Time (s) Time (%) msec/obj
+---------------- -------- -------- --------
+recorder           0.010    100.0%      2.0
+================ ======== ======== ========
+Total              0.010    100.0%      0.6
+

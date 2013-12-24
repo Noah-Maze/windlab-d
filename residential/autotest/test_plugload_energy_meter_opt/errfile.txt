@@ -1,0 +1,7 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : house_e:0 has no parent triplex_meter defined; using static voltages
+ERROR [1999-12-31 16:00:00 PST] : sync_player: Unable to open player file 'plugload_energy_meter.player' for object '(anon)'
+ERROR [1999-12-31 16:00:00 PST] : last error message was repeated 1 times
+ERROR [1999-12-31 16:00:00 PST] : recorder: property 'energy_meter' not found
+ERROR [1999-12-31 16:00:00 PST] : recorder 5 'load,power,energy_meter' contains a property of plugload 1 that is not found
+

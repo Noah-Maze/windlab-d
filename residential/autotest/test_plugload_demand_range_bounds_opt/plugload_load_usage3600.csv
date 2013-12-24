@@ -1,0 +1,9 @@
+# file...... plugload_load_usage3600.csv
+# date...... Mon Dec 23 23:19:02 2013
+# user...... nmaze
+# host...... (null)
+# target.... plugload 1
+# trigger... (none)
+# interval.. 3600
+# limit..... 24
+# timestamp,power

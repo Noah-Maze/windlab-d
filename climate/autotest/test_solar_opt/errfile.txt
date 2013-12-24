@@ -1,0 +1,2 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+/usr/bin/ld: warning: cannot find entry symbol xport-all-symbols; defaulting to 0000000000000b20

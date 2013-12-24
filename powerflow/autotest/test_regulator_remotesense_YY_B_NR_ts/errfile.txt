@@ -1,0 +1,3 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+ERROR [1999-12-31 19:00:00 EST] : sync_player: Unable to open player file 'regulator_load_phC.player' for object '(anon)'
+ERROR [2000-01-01 21:00:00 EST] : last error message was repeated 2 times

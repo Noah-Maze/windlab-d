@@ -1,0 +1,5 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+ERROR [1999-12-31 16:00:00 PST] : Specified target ../plugs.energy for office:0 is not valid.
+WARNING [2000-01-02 00:00:00 PST] : player was unable to split input string '
+'
+ERROR [2000-01-27 01:17:34 PST] : last error message was repeated 176 times

@@ -1,0 +1,8 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : explicit clotheswasher model is experimental
+WARNING [INIT] : house_e:0 has no parent triplex_meter defined; using static voltages
+WARNING [2000-05-07 00:00:00 PDT] : commit_all(): object complex_assert:2 commit failed
+ERROR [2000-05-07 00:00:00 PDT] : commit() failure: commit_all(): object complex_assert:2 commit failed
+ERROR [2000-05-07 00:00:00 PDT] : model commit failed
+FATAL [2000-05-07 00:00:00 PDT] : shutdown after simulation stopped prematurely
+FATAL [2000-05-07 00:00:00 PDT] : environment startup failed: No such file or directory

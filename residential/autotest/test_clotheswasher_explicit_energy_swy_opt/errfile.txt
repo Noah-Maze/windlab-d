@@ -1,0 +1,11 @@
+WARNING [INIT] : gridlabd.conf(32): variable 'USERNAME' not found
+WARNING [INIT] : explicit clotheswasher model is experimental
+WARNING [INIT] : house_e:0 has no parent triplex_meter defined; using static voltages
+ERROR [2000-05-01 00:00:00 PDT] : recorder: property 'enduse_load' not found
+ERROR [2000-05-01 00:00:00 PDT] : recorder 3 'enduse_load,energy' contains a property of clotheswasher 1 that is not found
+
+WARNING [2000-05-02 00:00:00 PDT] : commit_all(): object complex_assert:2 commit failed
+ERROR [2000-05-02 00:00:00 PDT] : commit() failure: commit_all(): object complex_assert:2 commit failed
+ERROR [2000-05-02 00:00:00 PDT] : model commit failed
+FATAL [2000-05-02 00:00:00 PDT] : shutdown after simulation stopped prematurely
+FATAL [2000-05-02 00:00:00 PDT] : environment startup failed: Numerical argument out of domain

@@ -13,6 +13,7 @@ generators_la_SOURCES =                      \
 	rectifier.cpp         rectifier.h         \
 	solar.cpp solar.h                         \
 	windturb_dg.cpp       windturb_dg.h       \
+	windclass.cpp       windclass.h       \
 	# DO NOT EDIT THE FOLLOWING LINE          \
 	# NEWCLASS
 generators_la_LDFLAGS = -module -no-undefined -avoid-version -version-info 0:0:0

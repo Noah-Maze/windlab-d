@@ -1,0 +1,9 @@
+# file...... commercial_hvac_usage2.csv
+# date...... Mon Dec 23 23:11:01 2013
+# user...... nmaze
+# host...... (null)
+# target.... office 0
+# trigger... (none)
+# interval.. 1
+# limit..... 58
+# timestamp,lights.load,hvac.load,plugs.load,total_load,air_temperature,mass_temperature,hvac_mode,hvac.load
