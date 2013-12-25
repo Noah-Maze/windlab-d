@@ -21,11 +21,26 @@ protected:
 	/* TODO: put unpublished but inherited variables */
 public:
 	/* TODO: put published variables here */
-	enum GENERATOR_MODE {MY_ZERO=1, MY_CONSTANT, MY_RANDOM};
-	enumeration Gen_mode;  //operating mode of the generator 
-	
+	enum MODEL_TYPE {LINEAR=1, LOGISTIC, AGGLINEAR, AGGLOGISTIC};
+	enumeration Model_type;  //operating mode of the generator 
 	double a_new_double;
+	double * pWS;
 	
+	// Params for all models
+	double cut_in;
+	double cut_out;
+	
+	// Linear Model Parameters
+	double wA;
+	double wB;
+	double wC;
+	double wD;
+	double wE;
+	double pA;
+	double pB;
+	double pC;
+	double pD;
+	double pE;	
 
 public:
 	/* required implementations */
@@ -33,7 +48,7 @@ public:
 	windclass(MODULE *module);
 	int create(void);
 	int init(OBJECT *parent);
-	//int init_climate(void);
+	int init_climate(void);
 	//double timestamp_to_hours(TIMESTAMP t);
 	//TIMESTAMP rfb_event_time(TIMESTAMP t0, complex power, double e);
 	TIMESTAMP presync(TIMESTAMP t0, TIMESTAMP t1);
