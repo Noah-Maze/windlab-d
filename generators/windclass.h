@@ -16,7 +16,13 @@ class windclass
 {
 private:
 	/* TODO: put private variables here */
-
+	double alphaIIR;
+	double windMean;
+	double stir_gamma(double);
+	double lin_pow(double);
+	double log_pow(double);
+	double agg_lin_pow(double);
+	double agg_log_pow(double);
 protected:
 	/* TODO: put unpublished but inherited variables */
 public:
@@ -29,8 +35,9 @@ public:
 	// Params for all models
 	double cut_in;
 	double cut_out;
+	double mv_avg_wind_speed;
 	
-	// Linear Model Parameters
+	// Single Unit Model Parameters
 	double wA;
 	double wB;
 	double wC;
@@ -40,8 +47,16 @@ public:
 	double pB;
 	double pC;
 	double pD;
-	double pE;	
-
+	double pE;
+	
+	// Aggregate Model Bonus Params
+	double dMeters;
+	double scale;
+	double shape;
+	double spatialStd;
+	int32_t dt;
+	int32_t turbines;
+	
 public:
 	/* required implementations */
 	windclass(void);

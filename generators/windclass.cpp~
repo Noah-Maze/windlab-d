@@ -60,6 +60,12 @@ windclass::windclass(MODULE *module)
 			PT_double, "wD", PADDR(wD),
 			PT_double, "pE", PADDR(pE),
 			PT_double, "wE", PADDR(wE),
+			PT_double, "dMeters",	PADDR(dMeters),
+			PT_double, "scale",	PADDR(scale),
+			PT_double, "shape",	PADDR(shape),
+			PT_double, "spatialStd",PADDR(spatialStd),
+			PT_int32,    "dt",	PADDR(dt),
+			PT_int32,    "turbines",	PADDR(turbines),
 			NULL)<1) GL_THROW("unable to publish properties in %s",__FILE__);
 		defaults = this;
 
@@ -73,20 +79,32 @@ windclass::windclass(MODULE *module)
 int windclass::create(void) 
 {
 	memcpy(this,defaults,sizeof(*this));
-	/* TODO: set the context-free initial value of properties */
+
+	// These are all the defaults.
+	
 	power_out = 1.0;
-	Model_type = 1;
+	Model_type = 1; //LInear
 
 	// Params for all models
 	 cut_in = 5.0;
 	 cut_out = 30.0;
+	mv_avg_wind_speed = 0.0;
+	turbines = 1;
 	
-	// =Linear Model Parameters
+	// Linear Model Parameters
 	 wA=6.0; 	 pA=20.0;
 	 wB=10.0;	 pB=75.0;
 	 wC=14.0;	 pC=140.0;
 	 wD=15.0;	 pD=135.0;
 	 wE=30.0;	 pE=130.0;	
+
+
+	// Aggregate Model Bonus Params
+	dMeters = 1000;
+	scale = 8;
+	shape = 2;
+	spatialStd = 1;
+	dt = 60;
 
 	return 1; /* return 1 on success, 0 on failure */
 }
@@ -141,7 +159,23 @@ int windclass::init_climate()
 /* Object initialization is called once after all object have been created */
 int windclass::init(OBJECT *parent)
 {
+	windMean = scale * stir_gamma(1+1/scale);
+
 	init_climate();
+	switch(Model_type) 
+	{
+			// Define IIR filter moving average estimator
+			// a ~ 1/N where N is the number of frames to average
+			// N = frames per propagation time 
+			// T = D/wm = pro time in seconds 
+			// dt = distance between update frames in seconds
+			
+		case AGGLINEAR:   
+		case AGGLOGISTIC: alphaIIR = (1.0 /  (dMeters / windMean) / dt);
+				break;
+		default: alphaIIR = 1.0;
+			break;
+	}
 	gl_verbose("windclass init: about to exit");
 	return 1; /* return 1 on success, 0 on failure */
 }
@@ -159,25 +193,22 @@ TIMESTAMP windclass::presync(TIMESTAMP t0, TIMESTAMP t1)
 /* Sync is called when the clock needs to advance on the bottom-up pass */
 TIMESTAMP windclass::sync(TIMESTAMP t0, TIMESTAMP t1) 
 {
+	mv_avg_wind_speed = ( alphaIIR * (*pWS) ) + ( (1 - alphaIIR) * mv_avg_wind_speed );
 	switch(Model_type) 
 	{
-		case LINEAR:	power_out = 0.0;
-				if((*pWS) < wE) power_out = pE - ((pE - pD)*(wE-(*pWS)) / (wE - wD));
-				if((*pWS) < wD) power_out = pD;
-				if((*pWS) < wC) power_out = pC - ((pC - pB)*(wC-(*pWS)) / (wC - wB));
-				if((*pWS) < wB) power_out = pB;
-				if((*pWS) < wA) power_out = pA;
-				if((*pWS) < cut_in) power_out = 0.0;
+		case LINEAR:	power_out = lin_pow( mv_avg_wind_speed );
 				break;
-		case LOGISTIC: power_out = 10.0 * (*pWS);
+
+		case LOGISTIC:  power_out = log_pow( mv_avg_wind_speed );
 				break;
-		case AGGLINEAR: power_out = (rand() % 100)* (*pWS)/50.0;
+
+		case AGGLINEAR: power_out = agg_lin_pow( mv_avg_wind_speed );
 				break;
-		case AGGLOGISTIC: power_out = (rand() % 100)* (*pWS)/50.0;
+		case AGGLOGISTIC: power_out = agg_log_pow( mv_avg_wind_speed );
 				break;
 	}
 
-	return t1+600;
+	return t1+dt;
 }
 
 /* Postsync is called when the clock needs to advance on the second top-down pass */
@@ -186,6 +217,63 @@ TIMESTAMP windclass::postsync(TIMESTAMP t0, TIMESTAMP t1)
 	TIMESTAMP t2 = TS_NEVER;
 	/* TODO: implement post-topdown behavior */
 	return t2; /* return t2>t1 on success, t2=t1 for retry, t2<t1 on failure */
+}
+
+double windclass::stir_gamma(double arg) {
+
+return sqrt(2.0*3.14159265/arg)*pow(arg/2.7182818, arg);
+
+}
+
+double windclass::lin_pow(double wind){
+
+	double power_return = 0.0;
+
+	if((wind) < cut_out) power_return = pE;
+	if((wind) < wE) power_return = pE - ((pE - pD)*(wE-(wind)) / (wE - wD));
+	if((wind) < wD) power_return = pD - ((pD - pC)*(wD-(wind)) / (wD - wC));
+	if((wind) < wC) power_return = pC - ((pC - pB)*(wC-(wind)) / (wC - wB));
+	if((wind) < wB) power_return = pB - ((pB - pA)*(wB-(wind)) / (wB - wA));
+	if((wind) < wA) power_return = pA - ((pA     )*(wA-(wind)) / (wA - cut_in));
+	if((wind) < cut_in) power_return = 0.0;
+	if((wind) > cut_out) power_return = 0.0;
+
+	return power_return * turbines;
+
+}
+
+double windclass::log_pow(double wind){
+
+	if((wind) < cut_in)  return 0.0;
+	if((wind) > cut_out) return 0.0;
+
+	return (pD + ((pA-pD) / pow( (1+((wind)/pC)), pE)));
+}
+
+double windclass::agg_lin_pow(double wind){
+ // Returns a six-trapezoid estimation of the integral of the power output about a normally distributed wind speed
+ 
+ double total = 0;
+ total = total = ( ( 0.0214 * ( lin_pow(wind + (-3*spatialStd) ) + lin_pow(wind + (-2*spatialStd) ) ) ) + 
+                   ( 0.1359 * ( lin_pow(wind + (-2*spatialStd) ) + lin_pow(wind + (-1*spatialStd) ) ) ) + 
+                   ( 0.3413 * ( lin_pow(wind + (-1*spatialStd) ) + lin_pow(wind + (0*spatialStd) ) ) )  + 
+                   ( 0.3413 * ( lin_pow(wind + (0*spatialStd) ) + lin_pow(wind + (1*spatialStd) ) ) )   + 
+                   ( 0.1359 * ( lin_pow(wind + (1*spatialStd) ) + lin_pow(wind + (2*spatialStd) ) ) )   + 
+                   ( 0.0214 * ( lin_pow(wind + (2*spatialStd) ) + lin_pow(wind + (3*spatialStd) ) ) )     ) / 2;
+
+ return total * turbines;
+}
+
+double windclass::agg_log_pow(double wind){
+ double total = 0;
+ total = total = ( ( 0.0214 * ( log_pow(wind + (-3*spatialStd) ) + log_pow(wind + (-2*spatialStd) ) ) ) + 
+                   ( 0.1359 * ( log_pow(wind + (-2*spatialStd) ) + log_pow(wind + (-1*spatialStd) ) ) ) + 
+                   ( 0.3413 * ( log_pow(wind + (-1*spatialStd) ) + log_pow(wind + (0*spatialStd) ) ) )  + 
+                   ( 0.3413 * ( log_pow(wind + (0*spatialStd) ) + log_pow(wind + (1*spatialStd) ) ) )   + 
+                   ( 0.1359 * ( log_pow(wind + (1*spatialStd) ) + log_pow(wind + (2*spatialStd) ) ) )   + 
+                   ( 0.0214 * ( log_pow(wind + (2*spatialStd) ) + log_pow(wind + (3*spatialStd) ) ) )     ) / 2;
+
+ return total * turbines;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -254,3 +342,5 @@ EXPORT TIMESTAMP sync_windclass(OBJECT *obj, TIMESTAMP t1, PASSCONFIG pass)
 	}
 	return t2;
 }
+
+

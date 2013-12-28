@@ -31,7 +31,7 @@ object climate{
 
 object windclass {
 	name test_wdg;
-	model_type LOGISTIC
+	Model_type LOGISTIC;
 	 pA 1.9212;
 	 pB 4.6760;
 	 pC 7.3674;

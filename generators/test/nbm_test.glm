@@ -31,6 +31,15 @@ object climate{
 
 object windclass {
 	name test_wdg;
+//	model_type LOGISTIC
+//	 pA 1.9212;
+//	 pB 4.6760;
+//	 pC 7.3674;
+//	 pD 144.1510;
+//	 pE 0.4743;
+//	 cut_in 3.5;
+//	 cut_out 25;
+
 	object recorder {
 		file WT_out.csv;
 		interval 900;
