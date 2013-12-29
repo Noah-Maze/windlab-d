@@ -48,6 +48,7 @@ windclass::windclass(MODULE *module)
 				PT_KEYWORD,"AGGLOGISTIC",(enumeration)AGGLOGISTIC,
 
 			PT_double, "power_out", PADDR(power_out),
+			PT_double, "mv_avg_wind_speed", PADDR(mv_avg_wind_speed),
 			PT_double, "cut_in", PADDR(cut_in),
 			PT_double, "cut_out", PADDR(cut_out),
 			PT_double, "pA", PADDR(pA),
@@ -171,7 +172,7 @@ int windclass::init(OBJECT *parent)
 			// dt = distance between update frames in seconds
 			
 		case AGGLINEAR:   
-		case AGGLOGISTIC: alphaIIR = (1.0 /  (dMeters / windMean) / dt);
+		case AGGLOGISTIC: alphaIIR = 1.0 /  (dMeters / windMean / dt);
 				break;
 		default: alphaIIR = 1.0;
 			break;
@@ -247,33 +248,33 @@ double windclass::log_pow(double wind){
 	if((wind) < cut_in)  return 0.0;
 	if((wind) > cut_out) return 0.0;
 
-	return (pD + ((pA-pD) / pow( (1+((wind)/pC)), pE)));
+	return turbines* (pD + ((pA-pD) / pow( (1+((wind)/pC)), pE)));
 }
 
 double windclass::agg_lin_pow(double wind){
  // Returns a six-trapezoid estimation of the integral of the power output about a normally distributed wind speed
  
  double total = 0;
- total = total = ( ( 0.0214 * ( lin_pow(wind + (-3*spatialStd) ) + lin_pow(wind + (-2*spatialStd) ) ) ) + 
+ total = 	 ( ( 0.0214 * ( lin_pow(wind + (-3*spatialStd) ) + lin_pow(wind + (-2*spatialStd) ) ) ) + 
                    ( 0.1359 * ( lin_pow(wind + (-2*spatialStd) ) + lin_pow(wind + (-1*spatialStd) ) ) ) + 
                    ( 0.3413 * ( lin_pow(wind + (-1*spatialStd) ) + lin_pow(wind + (0*spatialStd) ) ) )  + 
                    ( 0.3413 * ( lin_pow(wind + (0*spatialStd) ) + lin_pow(wind + (1*spatialStd) ) ) )   + 
                    ( 0.1359 * ( lin_pow(wind + (1*spatialStd) ) + lin_pow(wind + (2*spatialStd) ) ) )   + 
                    ( 0.0214 * ( lin_pow(wind + (2*spatialStd) ) + lin_pow(wind + (3*spatialStd) ) ) )     ) / 2;
 
- return total * turbines;
+ return total;
 }
 
 double windclass::agg_log_pow(double wind){
  double total = 0;
- total = total = ( ( 0.0214 * ( log_pow(wind + (-3*spatialStd) ) + log_pow(wind + (-2*spatialStd) ) ) ) + 
+ total =         ( ( 0.0214 * ( log_pow(wind + (-3*spatialStd) ) + log_pow(wind + (-2*spatialStd) ) ) ) + 
                    ( 0.1359 * ( log_pow(wind + (-2*spatialStd) ) + log_pow(wind + (-1*spatialStd) ) ) ) + 
                    ( 0.3413 * ( log_pow(wind + (-1*spatialStd) ) + log_pow(wind + (0*spatialStd) ) ) )  + 
                    ( 0.3413 * ( log_pow(wind + (0*spatialStd) ) + log_pow(wind + (1*spatialStd) ) ) )   + 
                    ( 0.1359 * ( log_pow(wind + (1*spatialStd) ) + log_pow(wind + (2*spatialStd) ) ) )   + 
                    ( 0.0214 * ( log_pow(wind + (2*spatialStd) ) + log_pow(wind + (3*spatialStd) ) ) )     ) / 2;
 
- return total * turbines;
+ return total;
 }
 
 //////////////////////////////////////////////////////////////////////////

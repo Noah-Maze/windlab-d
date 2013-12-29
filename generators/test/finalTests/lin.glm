@@ -1,0 +1,57 @@
+
+clock {
+	timezone EST+5EDT;
+	timestamp '2010-01-01 6:00:00';
+	stoptime '2010-01-01 12:00:00';
+	
+}
+
+module powerflow;
+module generators;
+module tape;
+module climate;
+
+module powerflow{
+	solver_method NR;
+	//acceleration_factor 1.4;
+	default_maximum_voltage_error 1e-9;
+};
+
+object climate{
+	name MyClimate;
+	tmyfile ../WA-Seattle.tmy2;
+	//reader CsvReader;
+	object recorder {
+		file climate_out.csv;
+		interval 1800;
+		limit 60;
+		property temperature,wind_speed;
+	};
+};
+
+object windclass {
+	name my_lin_model;
+	Model_type LINEAR;
+
+	wA 4.8;
+	wB 6.6;
+	wC 10.2;
+	wD 12.3;
+	wE 14.2;
+	pA 50;
+	pB 110;
+	pC 325;
+	pD 450;
+	pE 525;
+	cut_in 3;
+	cut_out 18;
+
+	turbines 1;
+
+	object recorder {
+		file lin_WT_out.csv;
+		interval 600;
+		limit 20000;
+		property power_out;
+	};
+};
