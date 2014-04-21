@@ -1,20 +1,22 @@
-load_xml.o: load_xml.cpp load_xml.h /usr/include/string.h \
- /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+load_xml.o: load_xml.cpp /usr/include/stdc-predef.h \
+ /usr/include/i386-linux-gnu/bits/predefs.h load_xml.h \
+ /usr/include/string.h /usr/include/features.h \
  /usr/include/i386-linux-gnu/sys/cdefs.h \
  /usr/include/i386-linux-gnu/bits/wordsize.h \
  /usr/include/i386-linux-gnu/gnu/stubs.h \
  /usr/include/i386-linux-gnu/gnu/stubs-32.h \
- /usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h /usr/include/xlocale.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h /usr/include/xlocale.h \
  /usr/include/stdio.h /usr/include/i386-linux-gnu/bits/types.h \
  /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/libio.h \
  /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
  /usr/include/i386-linux-gnu/bits/stdio_lim.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/stdlib.h \
  /usr/include/i386-linux-gnu/bits/waitflags.h \
  /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
  /usr/include/i386-linux-gnu/bits/endian.h \
  /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h \
  /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
  /usr/include/i386-linux-gnu/sys/select.h \
  /usr/include/i386-linux-gnu/bits/select.h \
@@ -22,26 +24,23 @@ load_xml.o: load_xml.cpp load_xml.h /usr/include/string.h \
  /usr/include/i386-linux-gnu/bits/time.h \
  /usr/include/i386-linux-gnu/sys/sysmacros.h \
  /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
- output.h timestamp.h platform.h /usr/include/i386-linux-gnu/bits/timex.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h output.h timestamp.h \
+ platform.h /usr/include/i386-linux-gnu/bits/timex.h \
  /usr/include/xercesc/util/PlatformUtils.hpp \
+ /usr/include/xercesc/util/XercesDefs.hpp \
+ /usr/include/xercesc/util/Xerces_autoconf_config.hpp \
+ /usr/include/inttypes.h /usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h \
+ /usr/include/stdint.h /usr/include/i386-linux-gnu/bits/wchar.h \
+ /usr/include/xercesc/util/XercesVersion.hpp \
  /usr/include/xercesc/util/XMLException.hpp \
  /usr/include/xercesc/util/XMemory.hpp \
- /usr/include/xercesc/util/XercesDefs.hpp \
- /usr/include/xercesc/util/XercesVersion.hpp \
- /usr/include/xercesc/util/AutoSense.hpp \
- /usr/include/xercesc/util/Platforms/Linux/LinuxDefs.hpp \
- /usr/include/xercesc/util/Compilers/GCCDefs.hpp \
- /usr/lib/gcc/i686-linux-gnu/4.6/include-fixed/limits.h \
- /usr/lib/gcc/i686-linux-gnu/4.6/include-fixed/syslimits.h \
- /usr/include/limits.h /usr/include/i386-linux-gnu/bits/posix1_lim.h \
- /usr/include/i386-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/i386-linux-gnu/bits/posix2_lim.h \
- /usr/include/i386-linux-gnu/bits/xopen_lim.h \
  /usr/include/xercesc/util/XMLExceptMsgs.hpp \
  /usr/include/xercesc/dom/DOMError.hpp \
  /usr/include/xercesc/util/XMLUni.hpp \
  /usr/include/xercesc/framework/XMLErrorReporter.hpp \
  /usr/include/xercesc/util/PanicHandler.hpp \
+ /usr/include/xercesc/util/XMLFileMgr.hpp \
+ /usr/include/xercesc/util/XMLMutexMgr.hpp \
  /usr/include/xercesc/sax2/SAX2XMLReader.hpp \
  /usr/include/xercesc/util/XMLUniDefs.hpp \
  /usr/include/xercesc/framework/XMLValidator.hpp \
@@ -57,20 +56,20 @@ load_xml.o: load_xml.cpp load_xml.h /usr/include/string.h \
  /usr/include/xercesc/internal/XSerializable.hpp \
  /usr/include/xercesc/internal/XSerializeEngine.hpp \
  /usr/include/xercesc/util/RefHashTableOf.hpp \
- /usr/include/xercesc/util/HashBase.hpp \
+ /usr/include/xercesc/util/Hashers.hpp \
  /usr/include/xercesc/util/IllegalArgumentException.hpp \
  /usr/include/xercesc/util/NoSuchElementException.hpp \
  /usr/include/xercesc/util/RuntimeException.hpp \
- /usr/include/xercesc/util/HashXMLCh.hpp \
  /usr/include/xercesc/util/RefHashTableOf.c \
  /usr/include/xercesc/util/Janitor.hpp \
  /usr/include/xercesc/util/Janitor.c \
  /usr/include/xercesc/util/NullPointerException.hpp \
- /usr/include/c++/4.6/new \
- /usr/include/c++/4.6/i686-linux-gnu/./bits/c++config.h \
- /usr/include/c++/4.6/i686-linux-gnu/./bits/os_defines.h \
- /usr/include/c++/4.6/i686-linux-gnu/./bits/cpu_defines.h \
- /usr/include/c++/4.6/exception \
+ /usr/include/c++/4.8/new \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
  /usr/include/xercesc/util/ValueVectorOf.hpp \
  /usr/include/xercesc/util/ValueVectorOf.c \
  /usr/include/xercesc/internal/XSerializationException.hpp \
@@ -88,8 +87,6 @@ load_xml.o: load_xml.cpp load_xml.h /usr/include/string.h \
  /usr/include/xercesc/util/regx/Token.hpp \
  /usr/include/xercesc/util/Mutexes.hpp \
  /usr/include/xercesc/util/regx/BMPattern.hpp \
- /usr/include/xercesc/util/regx/ModifierToken.hpp \
- /usr/include/xercesc/util/regx/ConditionToken.hpp \
  /usr/include/xercesc/util/regx/OpFactory.hpp \
  /usr/include/xercesc/util/regx/RegxUtil.hpp \
  /usr/include/xercesc/validators/schema/SchemaSymbols.hpp \
@@ -102,6 +99,17 @@ load_xml.o: load_xml.cpp load_xml.h /usr/include/string.h \
  /usr/include/xercesc/util/NameIdPool.c \
  /usr/include/xercesc/framework/XMLValidityCodes.hpp \
  /usr/include/xercesc/framework/XMLPScanToken.hpp \
+ /usr/include/xercesc/validators/common/Grammar.hpp \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include-fixed/limits.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/i386-linux-gnu/bits/posix1_lim.h \
+ /usr/include/i386-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/i386-linux-gnu/bits/posix2_lim.h \
+ /usr/include/i386-linux-gnu/bits/xopen_lim.h \
+ /usr/include/xercesc/framework/XMLElementDecl.hpp \
+ /usr/include/xercesc/framework/XMLAttDefList.hpp \
+ /usr/include/xercesc/framework/XMLEntityDecl.hpp \
+ /usr/include/xercesc/framework/XMLNotationDecl.hpp \
  /usr/include/xercesc/sax2/XMLReaderFactory.hpp \
  /usr/include/xercesc/sax/SAXException.hpp \
  /usr/include/xercesc/sax2/DefaultHandler.hpp \
@@ -113,28 +121,29 @@ load_xml.o: load_xml.cpp load_xml.h /usr/include/string.h \
  /usr/include/xercesc/sax/ErrorHandler.hpp \
  /usr/include/xercesc/sax/SAXParseException.hpp load_xml_handle.h \
  /usr/include/xercesc/framework/XMLFormatter.hpp \
- /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/c++/4.6/vector \
- /usr/include/c++/4.6/bits/stl_algobase.h \
- /usr/include/c++/4.6/bits/functexcept.h \
- /usr/include/c++/4.6/bits/exception_defines.h \
- /usr/include/c++/4.6/bits/cpp_type_traits.h \
- /usr/include/c++/4.6/ext/type_traits.h \
- /usr/include/c++/4.6/ext/numeric_traits.h \
- /usr/include/c++/4.6/bits/stl_pair.h /usr/include/c++/4.6/bits/move.h \
- /usr/include/c++/4.6/bits/concept_check.h \
- /usr/include/c++/4.6/bits/stl_iterator_base_types.h \
- /usr/include/c++/4.6/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/4.6/bits/stl_iterator.h \
- /usr/include/c++/4.6/debug/debug.h /usr/include/c++/4.6/bits/allocator.h \
- /usr/include/c++/4.6/i686-linux-gnu/./bits/c++allocator.h \
- /usr/include/c++/4.6/ext/new_allocator.h \
- /usr/include/c++/4.6/bits/stl_construct.h \
- /usr/include/c++/4.6/bits/stl_uninitialized.h \
- /usr/include/c++/4.6/bits/stl_vector.h \
- /usr/include/c++/4.6/initializer_list \
- /usr/include/c++/4.6/bits/stl_bvector.h \
- /usr/include/c++/4.6/bits/range_access.h \
- /usr/include/c++/4.6/bits/vector.tcc class.h /usr/include/errno.h \
+ /usr/include/c++/4.8/vector /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h \
+ /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h \
+ /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h \
+ /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_vector.h \
+ /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/vector.tcc class.h /usr/include/errno.h \
  /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h complex.h /usr/include/math.h \
@@ -146,18 +155,20 @@ load_xml.o: load_xml.cpp load_xml.h /usr/include/string.h \
  /usr/include/i386-linux-gnu/bits/mathdef.h \
  /usr/include/i386-linux-gnu/bits/mathcalls.h unit.h load.h globals.h \
  version.h build.h realtime.h module.h \
- /usr/lib/gcc/i686-linux-gnu/4.6/include/float.h object.h aggregate.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/float.h object.h aggregate.h \
  find.h match.h convert.h exception.h /usr/include/setjmp.h \
  /usr/include/i386-linux-gnu/bits/setjmp.h random.h threadpool.h list.h \
  schedule.h enduse.h loadshape.h test_callbacks.h gridlabd.h config.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/i386-linux-gnu/bits/predefs.h:
 
 load_xml.h:
 
 /usr/include/string.h:
 
 /usr/include/features.h:
-
-/usr/include/i386-linux-gnu/bits/predefs.h:
 
 /usr/include/i386-linux-gnu/sys/cdefs.h:
 
@@ -167,7 +178,7 @@ load_xml.h:
 
 /usr/include/i386-linux-gnu/gnu/stubs-32.h:
 
-/usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h:
+/usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h:
 
 /usr/include/xlocale.h:
 
@@ -183,7 +194,7 @@ load_xml.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h:
+/usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h:
 
 /usr/include/i386-linux-gnu/bits/stdio_lim.h:
 
@@ -200,6 +211,8 @@ load_xml.h:
 /usr/include/i386-linux-gnu/bits/endian.h:
 
 /usr/include/i386-linux-gnu/bits/byteswap.h:
+
+/usr/include/i386-linux-gnu/bits/byteswap-16.h:
 
 /usr/include/i386-linux-gnu/sys/types.h:
 
@@ -219,6 +232,8 @@ load_xml.h:
 
 /usr/include/alloca.h:
 
+/usr/include/i386-linux-gnu/bits/stdlib-float.h:
+
 output.h:
 
 timestamp.h:
@@ -229,35 +244,23 @@ platform.h:
 
 /usr/include/xercesc/util/PlatformUtils.hpp:
 
-/usr/include/xercesc/util/XMLException.hpp:
-
-/usr/include/xercesc/util/XMemory.hpp:
-
 /usr/include/xercesc/util/XercesDefs.hpp:
+
+/usr/include/xercesc/util/Xerces_autoconf_config.hpp:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.8/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/i386-linux-gnu/bits/wchar.h:
 
 /usr/include/xercesc/util/XercesVersion.hpp:
 
-/usr/include/xercesc/util/AutoSense.hpp:
+/usr/include/xercesc/util/XMLException.hpp:
 
-/usr/include/xercesc/util/Platforms/Linux/LinuxDefs.hpp:
-
-/usr/include/xercesc/util/Compilers/GCCDefs.hpp:
-
-/usr/lib/gcc/i686-linux-gnu/4.6/include-fixed/limits.h:
-
-/usr/lib/gcc/i686-linux-gnu/4.6/include-fixed/syslimits.h:
-
-/usr/include/limits.h:
-
-/usr/include/i386-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/i386-linux-gnu/bits/local_lim.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/i386-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/i386-linux-gnu/bits/xopen_lim.h:
+/usr/include/xercesc/util/XMemory.hpp:
 
 /usr/include/xercesc/util/XMLExceptMsgs.hpp:
 
@@ -268,6 +271,10 @@ platform.h:
 /usr/include/xercesc/framework/XMLErrorReporter.hpp:
 
 /usr/include/xercesc/util/PanicHandler.hpp:
+
+/usr/include/xercesc/util/XMLFileMgr.hpp:
+
+/usr/include/xercesc/util/XMLMutexMgr.hpp:
 
 /usr/include/xercesc/sax2/SAX2XMLReader.hpp:
 
@@ -301,15 +308,13 @@ platform.h:
 
 /usr/include/xercesc/util/RefHashTableOf.hpp:
 
-/usr/include/xercesc/util/HashBase.hpp:
+/usr/include/xercesc/util/Hashers.hpp:
 
 /usr/include/xercesc/util/IllegalArgumentException.hpp:
 
 /usr/include/xercesc/util/NoSuchElementException.hpp:
 
 /usr/include/xercesc/util/RuntimeException.hpp:
-
-/usr/include/xercesc/util/HashXMLCh.hpp:
 
 /usr/include/xercesc/util/RefHashTableOf.c:
 
@@ -319,15 +324,17 @@ platform.h:
 
 /usr/include/xercesc/util/NullPointerException.hpp:
 
-/usr/include/c++/4.6/new:
+/usr/include/c++/4.8/new:
 
-/usr/include/c++/4.6/i686-linux-gnu/./bits/c++config.h:
+/usr/include/i386-linux-gnu/c++/4.8/bits/c++config.h:
 
-/usr/include/c++/4.6/i686-linux-gnu/./bits/os_defines.h:
+/usr/include/i386-linux-gnu/c++/4.8/bits/os_defines.h:
 
-/usr/include/c++/4.6/i686-linux-gnu/./bits/cpu_defines.h:
+/usr/include/i386-linux-gnu/c++/4.8/bits/cpu_defines.h:
 
-/usr/include/c++/4.6/exception:
+/usr/include/c++/4.8/exception:
+
+/usr/include/c++/4.8/bits/atomic_lockfree_defines.h:
 
 /usr/include/xercesc/util/ValueVectorOf.hpp:
 
@@ -363,10 +370,6 @@ platform.h:
 
 /usr/include/xercesc/util/regx/BMPattern.hpp:
 
-/usr/include/xercesc/util/regx/ModifierToken.hpp:
-
-/usr/include/xercesc/util/regx/ConditionToken.hpp:
-
 /usr/include/xercesc/util/regx/OpFactory.hpp:
 
 /usr/include/xercesc/util/regx/RegxUtil.hpp:
@@ -390,6 +393,32 @@ platform.h:
 /usr/include/xercesc/framework/XMLValidityCodes.hpp:
 
 /usr/include/xercesc/framework/XMLPScanToken.hpp:
+
+/usr/include/xercesc/validators/common/Grammar.hpp:
+
+/usr/lib/gcc/i686-linux-gnu/4.8/include-fixed/limits.h:
+
+/usr/lib/gcc/i686-linux-gnu/4.8/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/i386-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/i386-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/i386-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/i386-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/xercesc/framework/XMLElementDecl.hpp:
+
+/usr/include/xercesc/framework/XMLAttDefList.hpp:
+
+/usr/include/xercesc/framework/XMLEntityDecl.hpp:
+
+/usr/include/xercesc/framework/XMLNotationDecl.hpp:
 
 /usr/include/xercesc/sax2/XMLReaderFactory.hpp:
 
@@ -415,55 +444,55 @@ load_xml_handle.h:
 
 /usr/include/xercesc/framework/XMLFormatter.hpp:
 
-/usr/include/i386-linux-gnu/bits/wchar.h:
+/usr/include/c++/4.8/vector:
 
-/usr/include/c++/4.6/vector:
+/usr/include/c++/4.8/bits/stl_algobase.h:
 
-/usr/include/c++/4.6/bits/stl_algobase.h:
+/usr/include/c++/4.8/bits/functexcept.h:
 
-/usr/include/c++/4.6/bits/functexcept.h:
+/usr/include/c++/4.8/bits/exception_defines.h:
 
-/usr/include/c++/4.6/bits/exception_defines.h:
+/usr/include/c++/4.8/bits/cpp_type_traits.h:
 
-/usr/include/c++/4.6/bits/cpp_type_traits.h:
+/usr/include/c++/4.8/ext/type_traits.h:
 
-/usr/include/c++/4.6/ext/type_traits.h:
+/usr/include/c++/4.8/ext/numeric_traits.h:
 
-/usr/include/c++/4.6/ext/numeric_traits.h:
+/usr/include/c++/4.8/bits/stl_pair.h:
 
-/usr/include/c++/4.6/bits/stl_pair.h:
+/usr/include/c++/4.8/bits/move.h:
 
-/usr/include/c++/4.6/bits/move.h:
+/usr/include/c++/4.8/bits/concept_check.h:
 
-/usr/include/c++/4.6/bits/concept_check.h:
+/usr/include/c++/4.8/bits/stl_iterator_base_types.h:
 
-/usr/include/c++/4.6/bits/stl_iterator_base_types.h:
+/usr/include/c++/4.8/bits/stl_iterator_base_funcs.h:
 
-/usr/include/c++/4.6/bits/stl_iterator_base_funcs.h:
+/usr/include/c++/4.8/debug/debug.h:
 
-/usr/include/c++/4.6/bits/stl_iterator.h:
+/usr/include/c++/4.8/bits/stl_iterator.h:
 
-/usr/include/c++/4.6/debug/debug.h:
+/usr/include/c++/4.8/bits/allocator.h:
 
-/usr/include/c++/4.6/bits/allocator.h:
+/usr/include/i386-linux-gnu/c++/4.8/bits/c++allocator.h:
 
-/usr/include/c++/4.6/i686-linux-gnu/./bits/c++allocator.h:
+/usr/include/c++/4.8/ext/new_allocator.h:
 
-/usr/include/c++/4.6/ext/new_allocator.h:
+/usr/include/c++/4.8/bits/memoryfwd.h:
 
-/usr/include/c++/4.6/bits/stl_construct.h:
+/usr/include/c++/4.8/bits/stl_construct.h:
 
-/usr/include/c++/4.6/bits/stl_uninitialized.h:
+/usr/include/c++/4.8/ext/alloc_traits.h:
 
-/usr/include/c++/4.6/bits/stl_vector.h:
+/usr/include/c++/4.8/bits/stl_uninitialized.h:
 
-/usr/include/c++/4.6/initializer_list:
+/usr/include/c++/4.8/bits/stl_vector.h:
 
-/usr/include/c++/4.6/bits/stl_bvector.h:
+/usr/include/c++/4.8/bits/stl_bvector.h:
 
-/usr/include/c++/4.6/bits/range_access.h:
+/usr/include/c++/4.8/bits/range_access.h:
 
-/usr/include/c++/4.6/bits/vector.tcc:
+/usr/include/c++/4.8/bits/vector.tcc:
 
 class.h:
 
@@ -511,7 +540,7 @@ realtime.h:
 
 module.h:
 
-/usr/lib/gcc/i686-linux-gnu/4.6/include/float.h:
+/usr/lib/gcc/i686-linux-gnu/4.8/include/float.h:
 
 object.h:
 

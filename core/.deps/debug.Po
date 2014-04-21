@@ -1,6 +1,6 @@
-debug.o: debug.c /usr/include/signal.h /usr/include/features.h \
- /usr/include/i386-linux-gnu/bits/predefs.h \
- /usr/include/i386-linux-gnu/sys/cdefs.h \
+debug.o: debug.c /usr/include/stdc-predef.h \
+ /usr/include/i386-linux-gnu/bits/predefs.h /usr/include/signal.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
  /usr/include/i386-linux-gnu/bits/wordsize.h \
  /usr/include/i386-linux-gnu/gnu/stubs.h \
  /usr/include/i386-linux-gnu/gnu/stubs-32.h \
@@ -11,21 +11,14 @@ debug.o: debug.c /usr/include/signal.h /usr/include/features.h \
  /usr/include/i386-linux-gnu/bits/siginfo.h \
  /usr/include/i386-linux-gnu/bits/sigaction.h \
  /usr/include/i386-linux-gnu/bits/sigcontext.h \
- /usr/include/i386-linux-gnu/asm/sigcontext.h /usr/include/linux/types.h \
- /usr/include/i386-linux-gnu/asm/types.h /usr/include/asm-generic/types.h \
- /usr/include/asm-generic/int-ll64.h \
- /usr/include/i386-linux-gnu/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h \
- /usr/include/i386-linux-gnu/asm/posix_types.h \
- /usr/include/i386-linux-gnu/asm/posix_types_32.h \
- /usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h \
  /usr/include/i386-linux-gnu/bits/sigstack.h \
  /usr/include/i386-linux-gnu/sys/ucontext.h \
  /usr/include/i386-linux-gnu/bits/pthreadtypes.h \
  /usr/include/i386-linux-gnu/bits/sigthread.h /usr/include/ctype.h \
  /usr/include/endian.h /usr/include/i386-linux-gnu/bits/endian.h \
- /usr/include/i386-linux-gnu/bits/byteswap.h /usr/include/xlocale.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h /usr/include/xlocale.h \
  /usr/include/string.h platform.h output.h /usr/include/stdlib.h \
  /usr/include/i386-linux-gnu/bits/waitflags.h \
  /usr/include/i386-linux-gnu/bits/waitstatus.h \
@@ -34,8 +27,9 @@ debug.o: debug.c /usr/include/signal.h /usr/include/features.h \
  /usr/include/i386-linux-gnu/bits/select.h \
  /usr/include/i386-linux-gnu/bits/time.h \
  /usr/include/i386-linux-gnu/sys/sysmacros.h /usr/include/alloca.h \
- /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
- /usr/include/wchar.h /usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h \
  /usr/include/i386-linux-gnu/bits/stdio_lim.h \
  /usr/include/i386-linux-gnu/bits/sys_errlist.h timestamp.h exec.h \
  /usr/include/setjmp.h /usr/include/i386-linux-gnu/bits/setjmp.h \
@@ -45,14 +39,16 @@ debug.o: debug.c /usr/include/signal.h /usr/include/features.h \
  /usr/include/asm-generic/errno-base.h complex.h unit.h realtime.h \
  index.h list.h convert.h object.h aggregate.h find.h match.h exception.h \
  random.h threadpool.h schedule.h enduse.h loadshape.h module.h \
- /usr/lib/gcc/i686-linux-gnu/4.6/include/float.h test_callbacks.h debug.h \
+ /usr/lib/gcc/i686-linux-gnu/4.8/include/float.h test_callbacks.h debug.h \
  kill.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/i386-linux-gnu/bits/predefs.h:
 
 /usr/include/signal.h:
 
 /usr/include/features.h:
-
-/usr/include/i386-linux-gnu/bits/predefs.h:
 
 /usr/include/i386-linux-gnu/sys/cdefs.h:
 
@@ -78,29 +74,7 @@ debug.o: debug.c /usr/include/signal.h /usr/include/features.h \
 
 /usr/include/i386-linux-gnu/bits/sigcontext.h:
 
-/usr/include/i386-linux-gnu/asm/sigcontext.h:
-
-/usr/include/linux/types.h:
-
-/usr/include/i386-linux-gnu/asm/types.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/i386-linux-gnu/asm/bitsperlong.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/i386-linux-gnu/asm/posix_types.h:
-
-/usr/include/i386-linux-gnu/asm/posix_types_32.h:
-
-/usr/lib/gcc/i686-linux-gnu/4.6/include/stddef.h:
+/usr/lib/gcc/i686-linux-gnu/4.8/include/stddef.h:
 
 /usr/include/i386-linux-gnu/bits/sigstack.h:
 
@@ -117,6 +91,8 @@ debug.o: debug.c /usr/include/signal.h /usr/include/features.h \
 /usr/include/i386-linux-gnu/bits/endian.h:
 
 /usr/include/i386-linux-gnu/bits/byteswap.h:
+
+/usr/include/i386-linux-gnu/bits/byteswap-16.h:
 
 /usr/include/xlocale.h:
 
@@ -144,6 +120,8 @@ output.h:
 
 /usr/include/alloca.h:
 
+/usr/include/i386-linux-gnu/bits/stdlib-float.h:
+
 /usr/include/stdio.h:
 
 /usr/include/libio.h:
@@ -152,7 +130,7 @@ output.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/i686-linux-gnu/4.6/include/stdarg.h:
+/usr/lib/gcc/i686-linux-gnu/4.8/include/stdarg.h:
 
 /usr/include/i386-linux-gnu/bits/stdio_lim.h:
 
@@ -220,7 +198,7 @@ loadshape.h:
 
 module.h:
 
-/usr/lib/gcc/i686-linux-gnu/4.6/include/float.h:
+/usr/lib/gcc/i686-linux-gnu/4.8/include/float.h:
 
 test_callbacks.h:
 

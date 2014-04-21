@@ -1,12 +1,12 @@
 /* confdefs.h */
 #define PACKAGE_NAME "Gridlab-D"
 #define PACKAGE_TARNAME "gridlabd"
-#define PACKAGE_VERSION "2.3.0.4534M"
-#define PACKAGE_STRING "Gridlab-D 2.3.0.4534M"
+#define PACKAGE_VERSION "2.3.0."
+#define PACKAGE_STRING "Gridlab-D 2.3.0."
 #define PACKAGE_BUGREPORT "David Chassin <david.chassin@pnl.gov>"
 #define PACKAGE_URL ""
 #define PACKAGE "gridlabd"
-#define VERSION "2.3.0.4534M"
+#define VERSION "2.3.0."
 #define REALTIME_LDFLAGS "-export-all-symbols"
 #define DLEXT ".so"
 #define STDC_HEADERS 1

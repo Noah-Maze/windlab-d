@@ -1,6 +1,6 @@
 Summary: GridLAB-D power distribution system simulation and analysis tool.
 Name: gridlabd
-Version: 2.3.0.4534M
+Version: 2.3.0.
 Release: 1%{?dist}
 License: Unknown
 Group: Simulators

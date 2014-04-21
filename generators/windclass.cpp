@@ -247,8 +247,10 @@ double windclass::log_pow(double wind){
 
 	if((wind) < cut_in)  return 0.0;
 	if((wind) > cut_out) return 0.0;
-
-	return turbines* (pD + ((pA-pD) / pow( (1+((wind)/pC)), pE)));
+	
+	//answer = d +(a-d)/ (1+(x/c)^b)^g
+	// turbines*( pD + (pA - pD) / pow( 1 + pow( (wind/pC), pB), pE)) 
+	return 	turbines*( pD + (pA - pD) / pow( 1 + pow( (wind/pC), pB), pE));
 }
 
 double windclass::agg_lin_pow(double wind){

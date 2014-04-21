@@ -1,4 +1,9 @@
-ddot.lo: ddot.c f2c.h slu_Cnames.h
+ddot.lo: ddot.c /usr/include/stdc-predef.h \
+ /usr/include/i386-linux-gnu/bits/predefs.h f2c.h slu_Cnames.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/i386-linux-gnu/bits/predefs.h:
 
 f2c.h:
 

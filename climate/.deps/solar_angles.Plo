@@ -1,5 +1,6 @@
-solar_angles.lo: solar_angles.cpp ../core/complex.h /usr/include/math.h \
- /usr/include/features.h /usr/include/i386-linux-gnu/bits/predefs.h \
+solar_angles.lo: solar_angles.cpp /usr/include/stdc-predef.h \
+ /usr/include/i386-linux-gnu/bits/predefs.h ../core/complex.h \
+ /usr/include/math.h /usr/include/features.h \
  /usr/include/i386-linux-gnu/sys/cdefs.h \
  /usr/include/i386-linux-gnu/bits/wordsize.h \
  /usr/include/i386-linux-gnu/gnu/stubs.h \
@@ -13,13 +14,15 @@ solar_angles.lo: solar_angles.cpp ../core/complex.h /usr/include/math.h \
  /usr/include/i386-linux-gnu/bits/mathcalls.h ../core/platform.h \
  solar_angles.h
 
+/usr/include/stdc-predef.h:
+
+/usr/include/i386-linux-gnu/bits/predefs.h:
+
 ../core/complex.h:
 
 /usr/include/math.h:
 
 /usr/include/features.h:
-
-/usr/include/i386-linux-gnu/bits/predefs.h:
 
 /usr/include/i386-linux-gnu/sys/cdefs.h:
 

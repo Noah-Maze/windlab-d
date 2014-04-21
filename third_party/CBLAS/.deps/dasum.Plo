@@ -1,4 +1,9 @@
-dasum.lo: dasum.c f2c.h slu_Cnames.h
+dasum.lo: dasum.c /usr/include/stdc-predef.h \
+ /usr/include/i386-linux-gnu/bits/predefs.h f2c.h slu_Cnames.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/i386-linux-gnu/bits/predefs.h:
 
 f2c.h:
 
