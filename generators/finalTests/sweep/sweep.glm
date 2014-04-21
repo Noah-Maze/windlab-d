@@ -1,0 +1,83 @@
+clock {
+     timezone UTC0;
+     timestamp '2013-04-01 00:00:00';
+     stoptime '2013-04-02 00:00:00';			// Fix Date
+}
+
+#define PF=FBS
+
+#set profiler=1;
+#set double_format=%+.12lg
+#set randomseed=10;
+#set relax_naming_rules=1;
+
+module tape;
+module climate;
+module generators;
+module assert;
+
+module powerflow {
+    solver_method ${PF};
+	line_limits FALSE;
+	default_maximum_voltage_error 1e-9;
+};
+
+//#set savefile="test_my_turbine_${PF}.xml"
+
+object climate {					// Fix Weather
+    tmyfile "sweep.csv";
+    reader csvreader;
+};
+
+object csv_reader {
+	name csvreader;
+	filename "sweep.csv";		// Fix Weather again
+}
+							// Build Objects
+object windclass {
+	name iec_lin_model;
+	Model_type LINEAR;
+
+	wA 3;
+	wB 5;
+	wC 10;
+	wD 12;
+	wE 14;
+	pA 0.126;
+	pB 0.204;
+	pC 1.677;
+	pD 1.974;
+	pE 2;
+	cut_in 2;
+	cut_out 21;
+
+	turbines 1;
+
+	object recorder {
+		file iec_lin_sweep_out.csv;
+		interval 60;
+		limit 20000;
+		property power_out;
+	};
+};
+object windclass {
+	name iec_log_model;
+	Model_type LOGISTIC;
+
+	pA 2.0027;
+	pB -13.6835;
+	pC 10.1253;
+	pD -0.0128;
+	pE 0.2283;
+	cut_in 2.1;
+	cut_out 21;
+
+	turbines 1;
+
+	object recorder {
+		file iec_log_sweep_out.csv;
+		interval 60;
+		limit 20000;
+		property power_out;
+	};
+};

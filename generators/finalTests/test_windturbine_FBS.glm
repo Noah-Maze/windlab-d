@@ -1,0 +1,62 @@
+clock {
+     timezone UTC;
+     timestamp '2009-01-01 00:00:00';
+     stoptime '2009-01-05 00:00:00';			// Fix Date
+}
+
+#define PF=FBS
+
+#set profiler=1;
+#set double_format=%+.12lg
+#set randomseed=10;
+#set relax_naming_rules=1;
+
+module tape;
+module climate;
+module generators;
+module assert;
+
+module powerflow {
+    solver_method ${PF};
+	line_limits FALSE;
+	default_maximum_voltage_error 1e-9;
+};
+
+//#set savefile="test_my_turbine_${PF}.xml"
+
+object climate {
+    tmyfile "Standard_Weather.csv";
+    reader csvreader;
+};
+
+object csv_reader {
+	name csvreader;
+	filename "Standard_Weather.csv";
+}
+
+object windclass {
+	name my_lin_model;
+	Model_type LINEAR;
+
+	wA 4.8;
+	wB 6.6;
+	wC 10.2;
+	wD 12.3;
+	wE 14.2;
+	pA 50;
+	pB 110;
+	pC 325;
+	pD 450;
+	pE 525;
+	cut_in 3;
+	cut_out 18;
+
+	turbines 1;
+
+	object recorder {
+		file lin_WT_out.csv;
+		interval 600;
+		limit 20000;
+		property power_out;
+	};
+};

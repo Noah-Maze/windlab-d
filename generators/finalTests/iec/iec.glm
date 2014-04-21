@@ -1,0 +1,143 @@
+clock {
+     timezone UTC0;
+     timestamp '2004-01-01 00:10:00';
+     stoptime '2004-12-31 16:00:00';			// Fix Date
+}
+
+#define PF=FBS
+
+#set profiler=1;
+#set double_format=%+.12lg
+#set randomseed=10;
+#set relax_naming_rules=1;
+
+module tape;
+module climate;
+module generators;
+module assert;
+
+module powerflow {
+    solver_method ${PF};
+	line_limits FALSE;
+	default_maximum_voltage_error 1e-9;
+};
+
+//#set savefile="test_my_turbine_${PF}.xml"
+
+object climate {					// Fix Weather
+    tmyfile "iec.csv";
+    reader csvreader;
+};
+
+object csv_reader {
+	name csvreader;
+	filename "iec.csv";		// Fix Weather again
+}
+							// Build Objects
+object windclass {
+	name iec_lin_model;
+	Model_type LINEAR;
+
+	wA 3;
+	wB 5;
+	wC 10;
+	wD 12;
+	wE 14;
+	pA 0.126;
+	pB 0.204;
+	pC 1.677;
+	pD 1.974;
+	pE 2;
+	cut_in 2;
+	cut_out 21;
+
+	turbines 331;
+
+	object recorder {
+		file iec_lin_site_out.csv;
+		interval 60;
+		limit 20000;
+		property power_out;
+	};
+};
+object windclass {
+	name iec_log_model;
+	Model_type LOGISTIC;
+
+	pA 2.0027;
+	pB -13.6835;
+	pC 10.1253;
+	pD -0.0128;
+	pE 0.2283;
+	cut_in 2.1;
+	cut_out 21;
+
+	turbines 331;
+
+	object recorder {
+		file iec_log_site_out.csv;
+		interval 60;
+		limit 20000;
+		property power_out;
+	};
+};
+
+object windclass {
+	name iec_agglin_model;
+	Model_type AGGLINEAR;
+
+	wA 3;
+	wB 5;
+	wC 10;
+	wD 12;
+	wE 14;
+	pA 0.126;
+	pB 0.204;
+	pC 1.677;
+	pD 1.974;
+	pE 2;
+	cut_in 2;
+	cut_out 21;
+
+	turbines 331;
+
+	// Aggregate Model Bonus Params
+	dMeters 209000;
+	scale   8.2089;
+	shape   2.1697;
+	spatialStd 0.35;
+
+	object recorder {
+		file iec_agglin_site_out.csv;
+		interval 60;
+		limit 20000;
+		property power_out;
+	};
+};
+object windclass {
+	name iec_agglog_model;
+	Model_type AGGLOGISTIC;
+
+	pA 2.0027;
+	pB -13.6835;
+	pC 10.1253;
+	pD -0.0128;
+	pE 0.2283;
+	cut_in 2.1;
+	cut_out 21;
+
+	turbines 331;
+
+	// Aggregate Model Bonus Params
+	dMeters 209000;
+	scale   8.2089;
+	shape   2.1697;
+	spatialStd 0.35;
+
+	object recorder {
+		file iec_agglog_site_out.csv;
+		interval 60;
+		limit 20000;
+		property power_out;
+	};
+};
